@@ -104,4 +104,4 @@ if __name__=='__main__':
     test_LinearDiscriminantAnalysis(X_train,X_test,y_train,y_test)
     run_plot_LDA()
     test_LinearDiscriminantAnalysis_solver(X_train,X_test,y_train,y_test)
-    test_LinearDiscriminantAnalysis_shrinkage(X_train,X_test,y_train,y_test) 
+    test_LinearDiscriminantAnalysis_shrinkage(X_train,X_test,y_train,y_test)
