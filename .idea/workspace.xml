@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32ca0f66-8911-4d4a-8039-80bcdc67f776" name="Default" comment="" />
+    <list default="true" id="32ca0f66-8911-4d4a-8039-80bcdc67f776" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ML note.iml" afterPath="$PROJECT_DIR$/.idea/ML note.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,6 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ML note$4__ElasticNet.coverage" NAME="4. ElasticNet Coverage Results" MODIFIED="1498822489445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$3_Lasso_regression.coverage" NAME="3.Lasso regression Coverage Results" MODIFIED="1498816016224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$ridge_analysis.coverage" NAME="ridge analysis Coverage Results" MODIFIED="1498814626274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$1_basic_liner_model.coverage" NAME="1.basic liner model Coverage Results" MODIFIED="1498813354450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
@@ -20,11 +25,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2.ridge analysis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.liner model/2.ridge analysis.py">
+      <file leaf-file-name="3.Lasso regression.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.liner model/3.Lasso regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="29" column="59" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="29" selection-end-column="59" />
+            <state relative-caret-position="375">
+              <caret line="25" column="58" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="25" selection-end-column="58" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -32,14 +37,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3.Lasso regression.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1.liner model/3.Lasso regression.py">
+      <file leaf-file-name="4. ElasticNet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.liner model/4. ElasticNet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            <state relative-caret-position="117">
+              <caret line="46" column="73" lean-forward="false" selection-start-line="46" selection-start-column="73" selection-end-line="46" selection-end-column="73" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#24#55#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.logistic regression.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1.liner model/5.logistic regression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,6 +77,8 @@
         <option value="$PROJECT_DIR$/1.liner model/1.basic liner model.py" />
         <option value="$PROJECT_DIR$/1.liner model/ridge analysis.py" />
         <option value="$PROJECT_DIR$/1.liner model/3.Lasso regression.py" />
+        <option value="$PROJECT_DIR$/1.liner model/4. ElasticNet.py" />
+        <option value="$PROJECT_DIR$/1.liner model/5.logistic regression.py" />
       </list>
     </option>
   </component>
@@ -122,7 +139,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Python.3.Lasso regression">
+  <component name="RunManager" selected="Python.4. ElasticNet">
     <configuration default="false" name="1.basic liner model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,6 +190,24 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.liner model/3.Lasso regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="4. ElasticNet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.liner model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.liner model/4. ElasticNet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -385,16 +420,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.1.basic liner model" />
       <item index="1" class="java.lang.String" itemvalue="Python.ridge analysis" />
       <item index="2" class="java.lang.String" itemvalue="Python.3.Lasso regression" />
+      <item index="3" class="java.lang.String" itemvalue="Python.4. ElasticNet" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.3.Lasso regression" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ridge analysis" />
-        <item index="2" class="java.lang.String" itemvalue="Python.1.basic liner model" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.4. ElasticNet" />
+        <item index="1" class="java.lang.String" itemvalue="Python.3.Lasso regression" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ridge analysis" />
+        <item index="3" class="java.lang.String" itemvalue="Python.1.basic liner model" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +456,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23357664" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -451,7 +488,7 @@
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="54" />
           <folding>
-            <element signature="e#34#52#0" expanded="true" />
+            <element signature="e#34#52#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -461,18 +498,36 @@
         <state relative-caret-position="255">
           <caret line="29" column="59" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="29" selection-end-column="59" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.liner model/3.Lasso regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="375">
+          <caret line="25" column="58" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="25" selection-end-column="58" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.liner model/4. ElasticNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="46" column="73" lean-forward="false" selection-start-line="46" selection-start-column="73" selection-end-line="46" selection-end-column="73" />
+          <folding>
+            <element signature="e#24#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.liner model/5.logistic regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
