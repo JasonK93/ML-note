@@ -8,7 +8,7 @@ def load_data():
     '''
     load for the dataset
         return:
-                1 array for the regression problem.
+                1 array for the classification problem.
                 train_data, test_data, train_value, test_value
     '''
     iris=datasets.load_iris() # Use the IRIS data. This data has 3 class and 150 examples
@@ -65,4 +65,4 @@ if __name__=='__main__':
     X_train,X_test,y_train,y_test=load_data()
     test_LogisticRegression(X_train,X_test,y_train,y_test)
     test_LogisticRegression_multinomial(X_train,X_test,y_train,y_test)
-    test_LogisticRegression_C(X_train,X_test,y_train,y_test) 
+    test_LogisticRegression_C(X_train,X_test,y_train,y_test)
