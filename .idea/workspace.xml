@@ -18,6 +18,7 @@
     <SUITE FILE_PATH="coverage/ML note$2_1_Decision_Tree_Classifier.coverage" NAME="2.1 Decision Tree-Classifier Coverage Results" MODIFIED="1499225380025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.decision tree(DT)" />
     <SUITE FILE_PATH="coverage/ML note$3_1_Gaussian_Bayes.coverage" NAME="3.1 Gaussian Bayes Coverage Results" MODIFIED="1499245093396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.Bayes" />
     <SUITE FILE_PATH="coverage/ML note$ridge_analysis.coverage" NAME="ridge analysis Coverage Results" MODIFIED="1498814626274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
+    <SUITE FILE_PATH="coverage/ML note$3_2_Multinomial_NB.coverage" NAME="3.2 Multinomial NB Coverage Results" MODIFIED="1499245539044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.Bayes" />
     <SUITE FILE_PATH="coverage/ML note$1_basic_liner_model.coverage" NAME="1.basic liner model Coverage Results" MODIFIED="1498813354450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -26,23 +27,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2.1 Decision Tree-Classifier.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.decision tree(DT)/2.1 Decision Tree-Classifier.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="34" column="63" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="63" />
-              <folding>
-                <element signature="e#25#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3.1 Gaussian Bayes.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="3.1 Gaussian Bayes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3.Bayes/3.1 Gaussian Bayes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+            <state relative-caret-position="312">
+              <caret line="38" column="17" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="38" selection-end-column="17" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -50,25 +39,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2.2 Decision Tree- Regression.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.decision tree(DT)/2.2 Decision Tree- Regression.py">
+      <file leaf-file-name="3.2 Multinomial NB.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3.Bayes/3.2 Multinomial NB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="79" column="29" lean-forward="true" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+            <state relative-caret-position="162">
+              <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
               <folding>
-                <element signature="e#25#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6.LDA.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.liner model/6.LDA.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="22" column="18" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="22" selection-end-column="18" />
-              <folding>
-                <element signature="e#25#56#0" expanded="true" />
+                <element signature="e#0#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,6 +77,7 @@
         <option value="$PROJECT_DIR$/2.decision tree(DT)/2.1 Decision Tree-Classifier.py" />
         <option value="$PROJECT_DIR$/2.decision tree(DT)/2.2 Decision Tree- Regression.py" />
         <option value="$PROJECT_DIR$/3.Bayes/3.1 Gaussian Bayes.py" />
+        <option value="$PROJECT_DIR$/3.Bayes/3.2 Multinomial NB.py" />
       </list>
     </option>
   </component>
@@ -176,25 +154,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3.1 Gaussian Bayes">
-    <configuration default="false" name="5.logistic regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.liner model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.liner model/5.logistic regression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.3.2 Multinomial NB">
     <configuration default="false" name="LDA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,6 +223,24 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.Bayes/3.1 Gaussian Bayes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="3.2 Multinomial NB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.Bayes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.Bayes/3.2 Multinomial NB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -476,19 +454,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.5.logistic regression" />
-      <item index="1" class="java.lang.String" itemvalue="Python.LDA" />
-      <item index="2" class="java.lang.String" itemvalue="Python.2.1 Decision Tree-Classifier" />
-      <item index="3" class="java.lang.String" itemvalue="Python.2.2 Decision Tree- Regression" />
-      <item index="4" class="java.lang.String" itemvalue="Python.3.1 Gaussian Bayes" />
+      <item index="0" class="java.lang.String" itemvalue="Python.LDA" />
+      <item index="1" class="java.lang.String" itemvalue="Python.2.1 Decision Tree-Classifier" />
+      <item index="2" class="java.lang.String" itemvalue="Python.2.2 Decision Tree- Regression" />
+      <item index="3" class="java.lang.String" itemvalue="Python.3.1 Gaussian Bayes" />
+      <item index="4" class="java.lang.String" itemvalue="Python.3.2 Multinomial NB" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.3.1 Gaussian Bayes" />
-        <item index="1" class="java.lang.String" itemvalue="Python.2.2 Decision Tree- Regression" />
-        <item index="2" class="java.lang.String" itemvalue="Python.2.1 Decision Tree-Classifier" />
-        <item index="3" class="java.lang.String" itemvalue="Python.LDA" />
-        <item index="4" class="java.lang.String" itemvalue="Python.5.logistic regression" />
+        <item index="0" class="java.lang.String" itemvalue="Python.3.2 Multinomial NB" />
+        <item index="1" class="java.lang.String" itemvalue="Python.3.1 Gaussian Bayes" />
+        <item index="2" class="java.lang.String" itemvalue="Python.2.2 Decision Tree- Regression" />
+        <item index="3" class="java.lang.String" itemvalue="Python.2.1 Decision Tree-Classifier" />
+        <item index="4" class="java.lang.String" itemvalue="Python.LDA" />
       </list>
     </recent_temporary>
   </component>
@@ -622,8 +600,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3.Bayes/3.1 Gaussian Bayes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        <state relative-caret-position="312">
+          <caret line="38" column="17" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="38" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.Bayes/3.2 Multinomial NB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
