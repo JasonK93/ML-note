@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32ca0f66-8911-4d4a-8039-80bcdc67f776" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.liner model/6.LDA.py" afterPath="$PROJECT_DIR$/1.liner model/6.LDA.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2.decision tree(DT)/2.1 Decision Tree-Classifier.py" afterPath="$PROJECT_DIR$/2.decision tree(DT)/2.1 Decision Tree-Classifier.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,6 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ML note$4__ElasticNet.coverage" NAME="4. ElasticNet Coverage Results" MODIFIED="1498822489445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
+    <SUITE FILE_PATH="coverage/ML note$2_2_Decision_Tree__Regression.coverage" NAME="2.2 Decision Tree- Regression Coverage Results" MODIFIED="1499226951641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.decision tree(DT)" />
     <SUITE FILE_PATH="coverage/ML note$5_logistic_regression.coverage" NAME="5.logistic regression Coverage Results" MODIFIED="1498838534969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$3_Lasso_regression.coverage" NAME="3.Lasso regression Coverage Results" MODIFIED="1498816016224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$LDA.coverage" NAME="LDA Coverage Results" MODIFIED="1498838977195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
@@ -29,8 +30,20 @@
       <file leaf-file-name="2.1 Decision Tree-Classifier.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2.decision tree(DT)/2.1 Decision Tree-Classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="84" column="40" lean-forward="true" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
+            <state relative-caret-position="-123">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="65" selection-end-column="7" />
+              <folding>
+                <element signature="e#25#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.2 Decision Tree- Regression.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2.decision tree(DT)/2.2 Decision Tree- Regression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="79" column="29" lean-forward="true" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
               <folding>
                 <element signature="e#25#43#0" expanded="true" />
               </folding>
@@ -72,7 +85,9 @@
         <option value="$PROJECT_DIR$/1.liner model/5.logistic regression.py" />
         <option value="$PROJECT_DIR$/1.liner model/LDA.py" />
         <option value="$PROJECT_DIR$/1.liner model/6.LDA.py" />
+        <option value="$PROJECT_DIR$/1.liner model/2.2 Decision Tree- Regression.py" />
         <option value="$PROJECT_DIR$/2.decision tree(DT)/2.1 Decision Tree-Classifier.py" />
+        <option value="$PROJECT_DIR$/2.decision tree(DT)/2.2 Decision Tree- Regression.py" />
       </list>
     </option>
   </component>
@@ -149,28 +164,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2.decision tree(DT)" />
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2.1 Decision Tree-Classifier">
-    <configuration default="false" name="3.Lasso regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.liner model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.liner model/3.Lasso regression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.2.2 Decision Tree- Regression">
     <configuration default="false" name="4. ElasticNet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,6 +237,24 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.decision tree(DT)/2.1 Decision Tree-Classifier.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="2.2 Decision Tree- Regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2.decision tree(DT)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.decision tree(DT)/2.2 Decision Tree- Regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -452,19 +468,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.3.Lasso regression" />
-      <item index="1" class="java.lang.String" itemvalue="Python.4. ElasticNet" />
-      <item index="2" class="java.lang.String" itemvalue="Python.5.logistic regression" />
-      <item index="3" class="java.lang.String" itemvalue="Python.LDA" />
-      <item index="4" class="java.lang.String" itemvalue="Python.2.1 Decision Tree-Classifier" />
+      <item index="0" class="java.lang.String" itemvalue="Python.4. ElasticNet" />
+      <item index="1" class="java.lang.String" itemvalue="Python.5.logistic regression" />
+      <item index="2" class="java.lang.String" itemvalue="Python.LDA" />
+      <item index="3" class="java.lang.String" itemvalue="Python.2.1 Decision Tree-Classifier" />
+      <item index="4" class="java.lang.String" itemvalue="Python.2.2 Decision Tree- Regression" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.2.1 Decision Tree-Classifier" />
-        <item index="1" class="java.lang.String" itemvalue="Python.LDA" />
-        <item index="2" class="java.lang.String" itemvalue="Python.5.logistic regression" />
-        <item index="3" class="java.lang.String" itemvalue="Python.4. ElasticNet" />
-        <item index="4" class="java.lang.String" itemvalue="Python.3.Lasso regression" />
+        <item index="0" class="java.lang.String" itemvalue="Python.2.2 Decision Tree- Regression" />
+        <item index="1" class="java.lang.String" itemvalue="Python.2.1 Decision Tree-Classifier" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LDA" />
+        <item index="3" class="java.lang.String" itemvalue="Python.5.logistic regression" />
+        <item index="4" class="java.lang.String" itemvalue="Python.4. ElasticNet" />
       </list>
     </recent_temporary>
   </component>
@@ -576,10 +592,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2.decision tree(DT)/2.2 Decision Tree- Regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="79" column="29" lean-forward="true" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+          <folding>
+            <element signature="e#25#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2.decision tree(DT)/2.1 Decision Tree-Classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="84" column="40" lean-forward="true" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
+        <state relative-caret-position="-123">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="65" selection-end-column="7" />
           <folding>
             <element signature="e#25#43#0" expanded="true" />
           </folding>

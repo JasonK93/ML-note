@@ -60,7 +60,7 @@ def test_DecisionTreeClassifier_splitter(*data):
 def test_DecisionTreeClassifier_depth(*data,maxdepth):
     '''
     test the score with different max_depth
-    :param data:  :param data: train_data, test_data, train_value, test_value
+    :param data: train_data, test_data, train_value, test_value
     :param maxdepth: an integer
     :return:  None
     '''
