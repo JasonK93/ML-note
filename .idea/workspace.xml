@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32ca0f66-8911-4d4a-8039-80bcdc67f776" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/1.liner model/LDA.py" afterPath="$PROJECT_DIR$/1.liner model/6.LDA.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.liner model/6.LDA.py" afterPath="$PROJECT_DIR$/1.liner model/6.LDA.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,6 +16,7 @@
     <SUITE FILE_PATH="coverage/ML note$5_logistic_regression.coverage" NAME="5.logistic regression Coverage Results" MODIFIED="1498838534969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$3_Lasso_regression.coverage" NAME="3.Lasso regression Coverage Results" MODIFIED="1498816016224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$LDA.coverage" NAME="LDA Coverage Results" MODIFIED="1498838977195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
+    <SUITE FILE_PATH="coverage/ML note$2_1_Decision_Tree_Classifier.coverage" NAME="2.1 Decision Tree-Classifier Coverage Results" MODIFIED="1499225380025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.decision tree(DT)" />
     <SUITE FILE_PATH="coverage/ML note$ridge_analysis.coverage" NAME="ridge analysis Coverage Results" MODIFIED="1498814626274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$1_basic_liner_model.coverage" NAME="1.basic liner model Coverage Results" MODIFIED="1498813354450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
   </component>
@@ -24,7 +25,32 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="2.1 Decision Tree-Classifier.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2.decision tree(DT)/2.1 Decision Tree-Classifier.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="84" column="40" lean-forward="true" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
+              <folding>
+                <element signature="e#25#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6.LDA.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.liner model/6.LDA.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="22" column="18" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="22" selection-end-column="18" />
+              <folding>
+                <element signature="e#25#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,6 +71,8 @@
         <option value="$PROJECT_DIR$/1.liner model/4. ElasticNet.py" />
         <option value="$PROJECT_DIR$/1.liner model/5.logistic regression.py" />
         <option value="$PROJECT_DIR$/1.liner model/LDA.py" />
+        <option value="$PROJECT_DIR$/1.liner model/6.LDA.py" />
+        <option value="$PROJECT_DIR$/2.decision tree(DT)/2.1 Decision Tree-Classifier.py" />
       </list>
     </option>
   </component>
@@ -88,6 +116,10 @@
               <option name="myItemId" value="ML note" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.decision tree(DT)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -120,25 +152,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.LDA">
-    <configuration default="false" name="ridge analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.liner model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.liner model/2.ridge analysis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.2.1 Decision Tree-Classifier">
     <configuration default="false" name="3.Lasso regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -207,6 +221,24 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.liner model/6.LDA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="2.1 Decision Tree-Classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2.decision tree(DT)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.decision tree(DT)/2.1 Decision Tree-Classifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -420,19 +452,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ridge analysis" />
-      <item index="1" class="java.lang.String" itemvalue="Python.3.Lasso regression" />
-      <item index="2" class="java.lang.String" itemvalue="Python.4. ElasticNet" />
-      <item index="3" class="java.lang.String" itemvalue="Python.5.logistic regression" />
-      <item index="4" class="java.lang.String" itemvalue="Python.LDA" />
+      <item index="0" class="java.lang.String" itemvalue="Python.3.Lasso regression" />
+      <item index="1" class="java.lang.String" itemvalue="Python.4. ElasticNet" />
+      <item index="2" class="java.lang.String" itemvalue="Python.5.logistic regression" />
+      <item index="3" class="java.lang.String" itemvalue="Python.LDA" />
+      <item index="4" class="java.lang.String" itemvalue="Python.2.1 Decision Tree-Classifier" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.LDA" />
-        <item index="1" class="java.lang.String" itemvalue="Python.5.logistic regression" />
-        <item index="2" class="java.lang.String" itemvalue="Python.4. ElasticNet" />
-        <item index="3" class="java.lang.String" itemvalue="Python.3.Lasso regression" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ridge analysis" />
+        <item index="0" class="java.lang.String" itemvalue="Python.2.1 Decision Tree-Classifier" />
+        <item index="1" class="java.lang.String" itemvalue="Python.LDA" />
+        <item index="2" class="java.lang.String" itemvalue="Python.5.logistic regression" />
+        <item index="3" class="java.lang.String" itemvalue="Python.4. ElasticNet" />
+        <item index="4" class="java.lang.String" itemvalue="Python.3.Lasso regression" />
       </list>
     </recent_temporary>
   </component>
@@ -450,10 +482,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="777" extended-state="1" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1440" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1502146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1502146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -524,22 +556,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.liner model/6.LDA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="106" column="77" lean-forward="false" selection-start-line="106" selection-start-column="77" selection-end-line="106" selection-end-column="77" />
-          <folding>
-            <element signature="e#25#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.liner model/5.logistic regression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
           <folding>
             <element signature="e#25#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.liner model/6.LDA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#25#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.decision tree(DT)/2.1 Decision Tree-Classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="84" column="40" lean-forward="true" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
+          <folding>
+            <element signature="e#25#43#0" expanded="true" />
           </folding>
         </state>
       </provider>

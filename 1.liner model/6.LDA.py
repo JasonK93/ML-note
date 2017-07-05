@@ -11,11 +11,11 @@ def load_data():
                 1 array for the classification problem.
                 train_data, test_data, train_value, test_value
     '''
-    iris=datasets.load_iris() # 使用 scikit-learn 自带的 iris 数据集
+    iris=datasets.load_iris()
     X_train=iris.data
     y_train=iris.target
     return cross_validation.train_test_split(X_train, y_train,test_size=0.25,
-		random_state=0,stratify=y_train)# 分层采样拆分成训练集和测试集，测试集大小为原始数据集大小的 1/4
+		random_state=0,stratify=y_train)
 def test_LinearDiscriminantAnalysis(*data):
     '''
     test of LDA
