@@ -28,6 +28,7 @@
     <SUITE FILE_PATH="coverage/ML note$3_Lasso_regression.coverage" NAME="3.Lasso regression Coverage Results" MODIFIED="1498816016224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$2_1_Decision_Tree_Classifier.coverage" NAME="2.1 Decision Tree-Classifier Coverage Results" MODIFIED="1499225380025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.decision tree(DT)" />
     <SUITE FILE_PATH="coverage/ML note$3_2_Multinomial_NB.coverage" NAME="3.2 Multinomial NB Coverage Results" MODIFIED="1499245539044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.Bayes" />
+    <SUITE FILE_PATH="coverage/ML note$6_2_DBSCAN.coverage" NAME="6.2 DBSCAN Coverage Results" MODIFIED="1499331951945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
     <SUITE FILE_PATH="coverage/ML note$5_4_Isomap.coverage" NAME="5.4 Isomap Coverage Results" MODIFIED="1499328154058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.Dimension_Reduction" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -36,73 +37,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="5.1 PCA.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5.Dimension_Reduction/5.1 PCA.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-273">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="8" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5.2 KPCA.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5.Dimension_Reduction/5.2 KPCA.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5.3 MDS.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5.Dimension_Reduction/5.3 MDS.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5.4 Isomap.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5.Dimension_Reduction/5.4 Isomap.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="29" column="7" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5.5 LLE.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5.Dimension_Reduction/5.5 LLE.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6.1 Kmeans.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="6.1 Kmeans.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6. Clustering/6.1 Kmeans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="125" column="14" lean-forward="true" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="14" />
               <folding>
                 <element signature="e#1#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6.2 DBSCAN.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/6. Clustering/6.2 DBSCAN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,6 +99,7 @@
         <option value="$PROJECT_DIR$/5.Dimension_Reduction/5.4 Isomap.py" />
         <option value="$PROJECT_DIR$/5.Dimension_Reduction/5.5 LLE.py" />
         <option value="$PROJECT_DIR$/6. Clustering/6.1 Kmeans.py" />
+        <option value="$PROJECT_DIR$/6. Clustering/6.2 DBSCAN.py" />
       </list>
     </option>
   </component>
@@ -223,25 +177,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.6.1 Kmeans">
-    <configuration default="false" name="5.2 KPCA" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5.Dimension_Reduction" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.Dimension_Reduction/5.2 KPCA.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.6.2 DBSCAN">
     <configuration default="false" name="5.3 MDS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,6 +246,24 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6. Clustering/6.1 Kmeans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="6.2 DBSCAN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6. Clustering" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6. Clustering/6.2 DBSCAN.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -523,19 +477,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.5.2 KPCA" />
-      <item index="1" class="java.lang.String" itemvalue="Python.5.3 MDS" />
-      <item index="2" class="java.lang.String" itemvalue="Python.5.4 Isomap" />
-      <item index="3" class="java.lang.String" itemvalue="Python.5.5 LLE" />
-      <item index="4" class="java.lang.String" itemvalue="Python.6.1 Kmeans" />
+      <item index="0" class="java.lang.String" itemvalue="Python.5.3 MDS" />
+      <item index="1" class="java.lang.String" itemvalue="Python.5.4 Isomap" />
+      <item index="2" class="java.lang.String" itemvalue="Python.5.5 LLE" />
+      <item index="3" class="java.lang.String" itemvalue="Python.6.1 Kmeans" />
+      <item index="4" class="java.lang.String" itemvalue="Python.6.2 DBSCAN" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.6.1 Kmeans" />
-        <item index="1" class="java.lang.String" itemvalue="Python.5.5 LLE" />
-        <item index="2" class="java.lang.String" itemvalue="Python.5.4 Isomap" />
-        <item index="3" class="java.lang.String" itemvalue="Python.5.3 MDS" />
-        <item index="4" class="java.lang.String" itemvalue="Python.5.2 KPCA" />
+        <item index="0" class="java.lang.String" itemvalue="Python.6.2 DBSCAN" />
+        <item index="1" class="java.lang.String" itemvalue="Python.6.1 Kmeans" />
+        <item index="2" class="java.lang.String" itemvalue="Python.5.5 LLE" />
+        <item index="3" class="java.lang.String" itemvalue="Python.5.4 Isomap" />
+        <item index="4" class="java.lang.String" itemvalue="Python.5.3 MDS" />
       </list>
     </recent_temporary>
   </component>
@@ -769,10 +723,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/6. Clustering/6.1 Kmeans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="125" column="14" lean-forward="true" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="14" />
           <folding>
             <element signature="e#1#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6. Clustering/6.2 DBSCAN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
