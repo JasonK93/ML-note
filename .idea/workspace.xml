@@ -29,6 +29,7 @@
     <SUITE FILE_PATH="coverage/ML note$4_2_KNN_regressor.coverage" NAME="4.2 KNN regressor Coverage Results" MODIFIED="1499324602685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4. KNN" />
     <SUITE FILE_PATH="coverage/ML note$3_Lasso_regression.coverage" NAME="3.Lasso regression Coverage Results" MODIFIED="1498816016224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$2_1_Decision_Tree_Classifier.coverage" NAME="2.1 Decision Tree-Classifier Coverage Results" MODIFIED="1499225380025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.decision tree(DT)" />
+    <SUITE FILE_PATH="coverage/ML note$6_4_GaussianMixture.coverage" NAME="6.4 GaussianMixture Coverage Results" MODIFIED="1499333304658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
     <SUITE FILE_PATH="coverage/ML note$6_3_Agglomerative_Clustering.coverage" NAME="6.3 Agglomerative Clustering Coverage Results" MODIFIED="1499332947447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
     <SUITE FILE_PATH="coverage/ML note$3_2_Multinomial_NB.coverage" NAME="3.2 Multinomial NB Coverage Results" MODIFIED="1499245539044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.Bayes" />
     <SUITE FILE_PATH="coverage/ML note$6_2_DBSCAN.coverage" NAME="6.2 DBSCAN Coverage Results" MODIFIED="1499332002041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
@@ -64,11 +65,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="6.3 Agglomerative Clustering.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="6.3 Agglomerative Clustering.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6. Clustering/6.3 Agglomerative Clustering.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
-              <caret line="104" column="55" lean-forward="false" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6.4 GaussianMixture.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/6. Clustering/6.4 GaussianMixture.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="109" column="37" lean-forward="false" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -116,6 +129,7 @@
         <option value="$PROJECT_DIR$/6. Clustering/6.2 DBSCAN.py" />
         <option value="$PROJECT_DIR$/6. Clustering/6.1 Kmeans.py" />
         <option value="$PROJECT_DIR$/6. Clustering/6.3 Agglomerative Clustering.py" />
+        <option value="$PROJECT_DIR$/6. Clustering/6.4 GaussianMixture.py" />
       </list>
     </option>
   </component>
@@ -193,25 +207,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.6.3 Agglomerative Clustering">
-    <configuration default="false" name="5.4 Isomap" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5.Dimension_Reduction" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.Dimension_Reduction/5.4 Isomap.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.6.4 GaussianMixture">
     <configuration default="false" name="5.5 LLE" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,6 +276,24 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6. Clustering/6.3 Agglomerative Clustering.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="6.4 GaussianMixture" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6. Clustering" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6. Clustering/6.4 GaussianMixture.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -493,19 +507,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.5.4 Isomap" />
-      <item index="1" class="java.lang.String" itemvalue="Python.5.5 LLE" />
-      <item index="2" class="java.lang.String" itemvalue="Python.6.1 Kmeans" />
-      <item index="3" class="java.lang.String" itemvalue="Python.6.2 DBSCAN" />
-      <item index="4" class="java.lang.String" itemvalue="Python.6.3 Agglomerative Clustering" />
+      <item index="0" class="java.lang.String" itemvalue="Python.5.5 LLE" />
+      <item index="1" class="java.lang.String" itemvalue="Python.6.1 Kmeans" />
+      <item index="2" class="java.lang.String" itemvalue="Python.6.2 DBSCAN" />
+      <item index="3" class="java.lang.String" itemvalue="Python.6.3 Agglomerative Clustering" />
+      <item index="4" class="java.lang.String" itemvalue="Python.6.4 GaussianMixture" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.6.3 Agglomerative Clustering" />
-        <item index="1" class="java.lang.String" itemvalue="Python.6.2 DBSCAN" />
-        <item index="2" class="java.lang.String" itemvalue="Python.6.1 Kmeans" />
-        <item index="3" class="java.lang.String" itemvalue="Python.5.5 LLE" />
-        <item index="4" class="java.lang.String" itemvalue="Python.5.4 Isomap" />
+        <item index="0" class="java.lang.String" itemvalue="Python.6.4 GaussianMixture" />
+        <item index="1" class="java.lang.String" itemvalue="Python.6.3 Agglomerative Clustering" />
+        <item index="2" class="java.lang.String" itemvalue="Python.6.2 DBSCAN" />
+        <item index="3" class="java.lang.String" itemvalue="Python.6.1 Kmeans" />
+        <item index="4" class="java.lang.String" itemvalue="Python.5.5 LLE" />
       </list>
     </recent_temporary>
   </component>
@@ -759,8 +773,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/6. Clustering/6.3 Agglomerative Clustering.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="104" column="55" lean-forward="false" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6. Clustering/6.4 GaussianMixture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="109" column="37" lean-forward="false" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
