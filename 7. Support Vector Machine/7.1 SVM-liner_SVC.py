@@ -162,4 +162,4 @@ if __name__=="__main__":
     test_SVC_linear(X_train,X_test,y_train,y_test)
     test_SVC_poly(X_train,X_test,y_train,y_test)
     test_SVC_rbf(X_train,X_test,y_train,y_test)
-    test_SVC_sigmoid(X_train,X_test,y_train,y_test) 
+    test_SVC_sigmoid(X_train,X_test,y_train,y_test)

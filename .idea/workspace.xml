@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32ca0f66-8911-4d4a-8039-80bcdc67f776" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6. Clustering/6.4 GaussianMixture.py" afterPath="$PROJECT_DIR$/6. Clustering/6.4 GaussianMixture.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/7. Support Vector Machine/7.1 SVM-liner_SVC.py" afterPath="$PROJECT_DIR$/7. Support Vector Machine/7.1 SVM-liner_SVC.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,6 +28,7 @@
     <SUITE FILE_PATH="coverage/ML note$3_3_Bernoulli_NB.coverage" NAME="3.3 Bernoulli NB Coverage Results" MODIFIED="1499245864334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.Bayes" />
     <SUITE FILE_PATH="coverage/ML note$2_2_Decision_Tree__Regression.coverage" NAME="2.2 Decision Tree- Regression Coverage Results" MODIFIED="1499226951641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.decision tree(DT)" />
     <SUITE FILE_PATH="coverage/ML note$4_2_KNN_regressor.coverage" NAME="4.2 KNN regressor Coverage Results" MODIFIED="1499324602685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4. KNN" />
+    <SUITE FILE_PATH="coverage/ML note$7_2_SVM_unliner_SVC.coverage" NAME="7.2 SVM-unliner_SVC Coverage Results" MODIFIED="1499341697298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7. Support Vector Machine" />
     <SUITE FILE_PATH="coverage/ML note$3_Lasso_regression.coverage" NAME="3.Lasso regression Coverage Results" MODIFIED="1498816016224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$2_1_Decision_Tree_Classifier.coverage" NAME="2.1 Decision Tree-Classifier Coverage Results" MODIFIED="1499225380025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.decision tree(DT)" />
     <SUITE FILE_PATH="coverage/ML note$6_4_GaussianMixture.coverage" NAME="6.4 GaussianMixture Coverage Results" MODIFIED="1499333304658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
@@ -42,58 +43,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="6.1 Kmeans.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6. Clustering/6.1 Kmeans.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6.2 DBSCAN.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6. Clustering/6.2 DBSCAN.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6.3 Agglomerative Clustering.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6. Clustering/6.3 Agglomerative Clustering.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6.4 GaussianMixture.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6. Clustering/6.4 GaussianMixture.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="109" column="36" lean-forward="false" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="7.1 SVM-liner_SVC.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="7.1 SVM-liner_SVC.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/7. Support Vector Machine/7.1 SVM-liner_SVC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2460">
+            <state relative-caret-position="120">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7.2 SVM-unliner_SVC.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/7. Support Vector Machine/7.2 SVM-unliner_SVC.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
               <caret line="164" column="52" lean-forward="false" selection-start-line="164" selection-start-column="52" selection-end-line="164" selection-end-column="52" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
@@ -144,6 +109,8 @@
         <option value="$PROJECT_DIR$/6. Clustering/6.3 Agglomerative Clustering.py" />
         <option value="$PROJECT_DIR$/6. Clustering/6.4 GaussianMixture.py" />
         <option value="$PROJECT_DIR$/7. Support Vector Machine/7.1 SVM-liner_SVC.py" />
+        <option value="$PROJECT_DIR$/7. Support Vector Machine/7.2 SVM_unliner.py" />
+        <option value="$PROJECT_DIR$/7. Support Vector Machine/7.2 SVM-unliner_SVC.py" />
       </list>
     </option>
   </component>
@@ -221,25 +188,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.7.1 SVM-liner_SVC">
-    <configuration default="false" name="6.1 Kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6. Clustering" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6. Clustering/6.1 Kmeans.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.7.2 SVM-unliner_SVC">
     <configuration default="false" name="6.2 DBSCAN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -308,6 +257,24 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7. Support Vector Machine/7.1 SVM-liner_SVC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="7.2 SVM-unliner_SVC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7. Support Vector Machine" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7. Support Vector Machine/7.2 SVM-unliner_SVC.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -521,19 +488,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.6.1 Kmeans" />
-      <item index="1" class="java.lang.String" itemvalue="Python.6.2 DBSCAN" />
-      <item index="2" class="java.lang.String" itemvalue="Python.6.3 Agglomerative Clustering" />
-      <item index="3" class="java.lang.String" itemvalue="Python.6.4 GaussianMixture" />
-      <item index="4" class="java.lang.String" itemvalue="Python.7.1 SVM-liner_SVC" />
+      <item index="0" class="java.lang.String" itemvalue="Python.6.2 DBSCAN" />
+      <item index="1" class="java.lang.String" itemvalue="Python.6.3 Agglomerative Clustering" />
+      <item index="2" class="java.lang.String" itemvalue="Python.6.4 GaussianMixture" />
+      <item index="3" class="java.lang.String" itemvalue="Python.7.1 SVM-liner_SVC" />
+      <item index="4" class="java.lang.String" itemvalue="Python.7.2 SVM-unliner_SVC" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.7.1 SVM-liner_SVC" />
-        <item index="1" class="java.lang.String" itemvalue="Python.6.4 GaussianMixture" />
-        <item index="2" class="java.lang.String" itemvalue="Python.6.3 Agglomerative Clustering" />
-        <item index="3" class="java.lang.String" itemvalue="Python.6.2 DBSCAN" />
-        <item index="4" class="java.lang.String" itemvalue="Python.6.1 Kmeans" />
+        <item index="0" class="java.lang.String" itemvalue="Python.7.2 SVM-unliner_SVC" />
+        <item index="1" class="java.lang.String" itemvalue="Python.7.1 SVM-liner_SVC" />
+        <item index="2" class="java.lang.String" itemvalue="Python.6.4 GaussianMixture" />
+        <item index="3" class="java.lang.String" itemvalue="Python.6.3 Agglomerative Clustering" />
+        <item index="4" class="java.lang.String" itemvalue="Python.6.2 DBSCAN" />
       </list>
     </recent_temporary>
   </component>
@@ -807,7 +774,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/7. Support Vector Machine/7.1 SVM-liner_SVC.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2460">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7. Support Vector Machine/7.2 SVM-unliner_SVC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
           <caret line="164" column="52" lean-forward="false" selection-start-line="164" selection-start-column="52" selection-end-line="164" selection-end-column="52" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
