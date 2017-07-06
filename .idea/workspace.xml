@@ -13,6 +13,7 @@
     <SUITE FILE_PATH="coverage/ML note$4__ElasticNet.coverage" NAME="4. ElasticNet Coverage Results" MODIFIED="1498822489445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$5_2_KPCA.coverage" NAME="5.2 KPCA Coverage Results" MODIFIED="1499327454346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.Dimension_Reduction" />
     <SUITE FILE_PATH="coverage/ML note$5_3_MDS.coverage" NAME="5.3 MDS Coverage Results" MODIFIED="1499327741023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.Dimension_Reduction" />
+    <SUITE FILE_PATH="coverage/ML note$6_1_Kmeans.coverage" NAME="6.1 Kmeans Coverage Results" MODIFIED="1499331568522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
     <SUITE FILE_PATH="coverage/ML note$5_logistic_regression.coverage" NAME="5.logistic regression Coverage Results" MODIFIED="1498838534969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$LDA.coverage" NAME="LDA Coverage Results" MODIFIED="1498838977195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$3_1_Gaussian_Bayes.coverage" NAME="3.1 Gaussian Bayes Coverage Results" MODIFIED="1499245093396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.Bayes" />
@@ -83,13 +84,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="5.5 LLE.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="5.5 LLE.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5.Dimension_Reduction/5.5 LLE.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6.1 Kmeans.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/6. Clustering/6.1 Kmeans.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="125" column="14" lean-forward="true" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
+              <folding>
+                <element signature="e#1#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,6 +145,7 @@
         <option value="$PROJECT_DIR$/5.Dimension_Reduction/5.3 MDS.py" />
         <option value="$PROJECT_DIR$/5.Dimension_Reduction/5.4 Isomap.py" />
         <option value="$PROJECT_DIR$/5.Dimension_Reduction/5.5 LLE.py" />
+        <option value="$PROJECT_DIR$/6. Clustering/6.1 Kmeans.py" />
       </list>
     </option>
   </component>
@@ -177,7 +191,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="5.Dimension_Reduction" />
+              <option name="myItemId" value="6. Clustering" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -209,25 +223,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.5.5 LLE">
-    <configuration default="false" name="5.1 PCA" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5.Dimension_Reduction" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.Dimension_Reduction/5.1 PCA.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.6.1 Kmeans">
     <configuration default="false" name="5.2 KPCA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,6 +292,24 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.Dimension_Reduction/5.5 LLE.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="6.1 Kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6. Clustering" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6. Clustering/6.1 Kmeans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -509,19 +523,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.5.1 PCA" />
-      <item index="1" class="java.lang.String" itemvalue="Python.5.2 KPCA" />
-      <item index="2" class="java.lang.String" itemvalue="Python.5.3 MDS" />
-      <item index="3" class="java.lang.String" itemvalue="Python.5.4 Isomap" />
-      <item index="4" class="java.lang.String" itemvalue="Python.5.5 LLE" />
+      <item index="0" class="java.lang.String" itemvalue="Python.5.2 KPCA" />
+      <item index="1" class="java.lang.String" itemvalue="Python.5.3 MDS" />
+      <item index="2" class="java.lang.String" itemvalue="Python.5.4 Isomap" />
+      <item index="3" class="java.lang.String" itemvalue="Python.5.5 LLE" />
+      <item index="4" class="java.lang.String" itemvalue="Python.6.1 Kmeans" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.5.5 LLE" />
-        <item index="1" class="java.lang.String" itemvalue="Python.5.4 Isomap" />
-        <item index="2" class="java.lang.String" itemvalue="Python.5.3 MDS" />
-        <item index="3" class="java.lang.String" itemvalue="Python.5.2 KPCA" />
-        <item index="4" class="java.lang.String" itemvalue="Python.5.1 PCA" />
+        <item index="0" class="java.lang.String" itemvalue="Python.6.1 Kmeans" />
+        <item index="1" class="java.lang.String" itemvalue="Python.5.5 LLE" />
+        <item index="2" class="java.lang.String" itemvalue="Python.5.4 Isomap" />
+        <item index="3" class="java.lang.String" itemvalue="Python.5.3 MDS" />
+        <item index="4" class="java.lang.String" itemvalue="Python.5.2 KPCA" />
       </list>
     </recent_temporary>
   </component>
@@ -749,6 +763,16 @@
           <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6. Clustering/6.1 Kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="125" column="14" lean-forward="true" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
+          <folding>
+            <element signature="e#1#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
