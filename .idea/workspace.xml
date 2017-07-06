@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32ca0f66-8911-4d4a-8039-80bcdc67f776" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/6. Clustering/6.4 GaussianMixture.py" afterPath="$PROJECT_DIR$/6. Clustering/6.4 GaussianMixture.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,6 +21,7 @@
     <SUITE FILE_PATH="coverage/ML note$3_1_Gaussian_Bayes.coverage" NAME="3.1 Gaussian Bayes Coverage Results" MODIFIED="1499245093396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.Bayes" />
     <SUITE FILE_PATH="coverage/ML note$KNN_classification.coverage" NAME="KNN classification Coverage Results" MODIFIED="1499323965867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4. KNN" />
     <SUITE FILE_PATH="coverage/ML note$5_5_LLE.coverage" NAME="5.5 LLE Coverage Results" MODIFIED="1499328430901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.Dimension_Reduction" />
+    <SUITE FILE_PATH="coverage/ML note$7_1_SVM_liner_SVC.coverage" NAME="7.1 SVM-liner_SVC Coverage Results" MODIFIED="1499341217238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7. Support Vector Machine" />
     <SUITE FILE_PATH="coverage/ML note$ridge_analysis.coverage" NAME="ridge analysis Coverage Results" MODIFIED="1498814626274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$5_1_PCA.coverage" NAME="5.1 PCA Coverage Results" MODIFIED="1499326618012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.Dimension_Reduction" />
     <SUITE FILE_PATH="coverage/ML note$1_basic_liner_model.coverage" NAME="1.basic liner model Coverage Results" MODIFIED="1498813354450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
@@ -77,13 +78,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="6.4 GaussianMixture.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="6.4 GaussianMixture.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6. Clustering/6.4 GaussianMixture.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="327">
-              <caret line="109" column="37" lean-forward="false" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
+              <caret line="109" column="36" lean-forward="false" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7.1 SVM-liner_SVC.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/7. Support Vector Machine/7.1 SVM-liner_SVC.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2460">
+              <caret line="164" column="52" lean-forward="false" selection-start-line="164" selection-start-column="52" selection-end-line="164" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,6 +143,7 @@
         <option value="$PROJECT_DIR$/6. Clustering/6.1 Kmeans.py" />
         <option value="$PROJECT_DIR$/6. Clustering/6.3 Agglomerative Clustering.py" />
         <option value="$PROJECT_DIR$/6. Clustering/6.4 GaussianMixture.py" />
+        <option value="$PROJECT_DIR$/7. Support Vector Machine/7.1 SVM-liner_SVC.py" />
       </list>
     </option>
   </component>
@@ -175,7 +189,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="6. Clustering" />
+              <option name="myItemId" value="7. Support Vector Machine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -207,25 +221,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.6.4 GaussianMixture">
-    <configuration default="false" name="5.5 LLE" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5.Dimension_Reduction" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.Dimension_Reduction/5.5 LLE.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.7.1 SVM-liner_SVC">
     <configuration default="false" name="6.1 Kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -294,6 +290,24 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6. Clustering/6.4 GaussianMixture.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="7.1 SVM-liner_SVC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7. Support Vector Machine" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7. Support Vector Machine/7.1 SVM-liner_SVC.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -507,19 +521,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.5.5 LLE" />
-      <item index="1" class="java.lang.String" itemvalue="Python.6.1 Kmeans" />
-      <item index="2" class="java.lang.String" itemvalue="Python.6.2 DBSCAN" />
-      <item index="3" class="java.lang.String" itemvalue="Python.6.3 Agglomerative Clustering" />
-      <item index="4" class="java.lang.String" itemvalue="Python.6.4 GaussianMixture" />
+      <item index="0" class="java.lang.String" itemvalue="Python.6.1 Kmeans" />
+      <item index="1" class="java.lang.String" itemvalue="Python.6.2 DBSCAN" />
+      <item index="2" class="java.lang.String" itemvalue="Python.6.3 Agglomerative Clustering" />
+      <item index="3" class="java.lang.String" itemvalue="Python.6.4 GaussianMixture" />
+      <item index="4" class="java.lang.String" itemvalue="Python.7.1 SVM-liner_SVC" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.6.4 GaussianMixture" />
-        <item index="1" class="java.lang.String" itemvalue="Python.6.3 Agglomerative Clustering" />
-        <item index="2" class="java.lang.String" itemvalue="Python.6.2 DBSCAN" />
-        <item index="3" class="java.lang.String" itemvalue="Python.6.1 Kmeans" />
-        <item index="4" class="java.lang.String" itemvalue="Python.5.5 LLE" />
+        <item index="0" class="java.lang.String" itemvalue="Python.7.1 SVM-liner_SVC" />
+        <item index="1" class="java.lang.String" itemvalue="Python.6.4 GaussianMixture" />
+        <item index="2" class="java.lang.String" itemvalue="Python.6.3 Agglomerative Clustering" />
+        <item index="3" class="java.lang.String" itemvalue="Python.6.2 DBSCAN" />
+        <item index="4" class="java.lang.String" itemvalue="Python.6.1 Kmeans" />
       </list>
     </recent_temporary>
   </component>
@@ -542,11 +556,11 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1502146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32846716" sideWeight="0.5028612" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23357664" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32846716" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -596,7 +610,7 @@
         <state relative-caret-position="375">
           <caret line="25" column="58" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="25" selection-end-column="58" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -606,7 +620,7 @@
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
           <folding>
-            <element signature="e#24#55#0" expanded="true" />
+            <element signature="e#24#55#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -616,7 +630,7 @@
         <state relative-caret-position="150">
           <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
           <folding>
-            <element signature="e#25#56#0" expanded="true" />
+            <element signature="e#25#56#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -626,7 +640,7 @@
         <state relative-caret-position="90">
           <caret line="22" column="18" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="22" selection-end-column="18" />
           <folding>
-            <element signature="e#25#56#0" expanded="true" />
+            <element signature="e#25#56#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -646,7 +660,7 @@
         <state relative-caret-position="132">
           <caret line="34" column="63" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="63" />
           <folding>
-            <element signature="e#25#43#0" expanded="true" />
+            <element signature="e#25#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -666,7 +680,7 @@
         <state relative-caret-position="297">
           <caret line="66" column="50" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="66" selection-end-column="50" />
           <folding>
-            <element signature="e#0#57#0" expanded="true" />
+            <element signature="e#0#57#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -676,7 +690,7 @@
         <state relative-caret-position="105">
           <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="59" />
           <folding>
-            <element signature="e#0#57#0" expanded="true" />
+            <element signature="e#0#57#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -686,7 +700,7 @@
         <state relative-caret-position="345">
           <caret line="59" column="7" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="59" selection-end-column="7" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -696,7 +710,7 @@
         <state relative-caret-position="1290">
           <caret line="86" column="62" lean-forward="true" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -706,7 +720,7 @@
         <state relative-caret-position="-273">
           <caret line="8" column="7" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="8" selection-end-column="7" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -716,7 +730,7 @@
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="7" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -726,7 +740,7 @@
         <state relative-caret-position="105">
           <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="36" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -736,7 +750,7 @@
         <state relative-caret-position="285">
           <caret line="29" column="7" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="7" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -784,9 +798,19 @@
     <entry file="file://$PROJECT_DIR$/6. Clustering/6.4 GaussianMixture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
-          <caret line="109" column="37" lean-forward="false" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
+          <caret line="109" column="36" lean-forward="false" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7. Support Vector Machine/7.1 SVM-liner_SVC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2460">
+          <caret line="164" column="52" lean-forward="false" selection-start-line="164" selection-start-column="52" selection-end-line="164" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

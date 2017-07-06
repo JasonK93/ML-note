@@ -107,4 +107,4 @@ if __name__=='__main__':
     plot_data(X,labels_true)
     test_GMM(X,labels_true)
     test_GMM_n_components(X,labels_true)
-    test_GMM_cov_type(X,labels_true) 
+    test_GMM_cov_type(X,labels_true)
