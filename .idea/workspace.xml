@@ -16,6 +16,7 @@
     <SUITE FILE_PATH="coverage/ML note$3_1_Gaussian_Bayes.coverage" NAME="3.1 Gaussian Bayes Coverage Results" MODIFIED="1499245093396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.Bayes" />
     <SUITE FILE_PATH="coverage/ML note$KNN_classification.coverage" NAME="KNN classification Coverage Results" MODIFIED="1499323965867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4. KNN" />
     <SUITE FILE_PATH="coverage/ML note$ridge_analysis.coverage" NAME="ridge analysis Coverage Results" MODIFIED="1498814626274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
+    <SUITE FILE_PATH="coverage/ML note$5_1_PCA.coverage" NAME="5.1 PCA Coverage Results" MODIFIED="1499326618012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.Dimension_Reduction" />
     <SUITE FILE_PATH="coverage/ML note$1_basic_liner_model.coverage" NAME="1.basic liner model Coverage Results" MODIFIED="1498813354450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$3_3_Bernoulli_NB.coverage" NAME="3.3 Bernoulli NB Coverage Results" MODIFIED="1499245864334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.Bayes" />
     <SUITE FILE_PATH="coverage/ML note$2_2_Decision_Tree__Regression.coverage" NAME="2.2 Decision Tree- Regression Coverage Results" MODIFIED="1499226951641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.decision tree(DT)" />
@@ -42,11 +43,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4.2 KNN regressor.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="4.2 KNN regressor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4. KNN/4.2 KNN regressor.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1290">
               <caret line="86" column="62" lean-forward="true" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.1 PCA.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/5.Dimension_Reduction/5.1 PCA.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -86,6 +99,7 @@
         <option value="$PROJECT_DIR$/4. KNN/KNN classification.py" />
         <option value="$PROJECT_DIR$/4. KNN/4.1 KNN classification.py" />
         <option value="$PROJECT_DIR$/4. KNN/4.2 KNN regressor.py" />
+        <option value="$PROJECT_DIR$/5.Dimension_Reduction/5.1 PCA.py" />
       </list>
     </option>
   </component>
@@ -131,7 +145,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="4. KNN" />
+              <option name="myItemId" value="5.Dimension_Reduction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -163,25 +177,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.4.2 KNN regressor">
-    <configuration default="false" name="3.1 Gaussian Bayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.Bayes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.Bayes/3.1 Gaussian Bayes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.5.1 PCA">
     <configuration default="false" name="3.2 Multinomial NB" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,6 +246,24 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4. KNN/4.2 KNN regressor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="5.1 PCA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5.Dimension_Reduction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.Dimension_Reduction/5.1 PCA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -463,19 +477,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.3.1 Gaussian Bayes" />
-      <item index="1" class="java.lang.String" itemvalue="Python.3.2 Multinomial NB" />
-      <item index="2" class="java.lang.String" itemvalue="Python.3.3 Bernoulli NB" />
-      <item index="3" class="java.lang.String" itemvalue="Python.KNN classification" />
-      <item index="4" class="java.lang.String" itemvalue="Python.4.2 KNN regressor" />
+      <item index="0" class="java.lang.String" itemvalue="Python.3.2 Multinomial NB" />
+      <item index="1" class="java.lang.String" itemvalue="Python.3.3 Bernoulli NB" />
+      <item index="2" class="java.lang.String" itemvalue="Python.KNN classification" />
+      <item index="3" class="java.lang.String" itemvalue="Python.4.2 KNN regressor" />
+      <item index="4" class="java.lang.String" itemvalue="Python.5.1 PCA" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.4.2 KNN regressor" />
-        <item index="1" class="java.lang.String" itemvalue="Python.KNN classification" />
-        <item index="2" class="java.lang.String" itemvalue="Python.3.3 Bernoulli NB" />
-        <item index="3" class="java.lang.String" itemvalue="Python.3.2 Multinomial NB" />
-        <item index="4" class="java.lang.String" itemvalue="Python.3.1 Gaussian Bayes" />
+        <item index="0" class="java.lang.String" itemvalue="Python.5.1 PCA" />
+        <item index="1" class="java.lang.String" itemvalue="Python.4.2 KNN regressor" />
+        <item index="2" class="java.lang.String" itemvalue="Python.KNN classification" />
+        <item index="3" class="java.lang.String" itemvalue="Python.3.3 Bernoulli NB" />
+        <item index="4" class="java.lang.String" itemvalue="Python.3.2 Multinomial NB" />
       </list>
     </recent_temporary>
   </component>
@@ -612,7 +626,7 @@
         <state relative-caret-position="312">
           <caret line="38" column="17" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="38" selection-end-column="17" />
           <folding>
-            <element signature="e#0#57#0" expanded="true" />
+            <element signature="e#0#57#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -651,6 +665,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1290">
           <caret line="86" column="62" lean-forward="true" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.Dimension_Reduction/5.1 PCA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
