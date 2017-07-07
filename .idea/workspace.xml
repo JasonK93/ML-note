@@ -39,6 +39,7 @@
     <SUITE FILE_PATH="coverage/ML note$7_1_SVM_liner_SVC.coverage" NAME="7.1 SVM-liner_SVC Coverage Results" MODIFIED="1499341217238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7. Support Vector Machine" />
     <SUITE FILE_PATH="coverage/ML note$ridge_analysis.coverage" NAME="ridge analysis Coverage Results" MODIFIED="1498814626274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$2_2_Decision_Tree__Regression.coverage" NAME="2.2 Decision Tree- Regression Coverage Results" MODIFIED="1499226951641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.decision tree(DT)" />
+    <SUITE FILE_PATH="coverage/ML note$11_1_Binarize.coverage" NAME="11.1 Binarize Coverage Results" MODIFIED="1499439786488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11. Preprocessing" />
     <SUITE FILE_PATH="coverage/ML note$9_2LabelSpreading.coverage" NAME="9.2LabelSpreading Coverage Results" MODIFIED="1499408812448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9. Semi-Supervised Learning" />
     <SUITE FILE_PATH="coverage/ML note$7_2_SVM_unliner_SVC.coverage" NAME="7.2 SVM-unliner_SVC Coverage Results" MODIFIED="1499341697298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7. Support Vector Machine" />
     <SUITE FILE_PATH="coverage/ML note$3_Lasso_regression.coverage" NAME="3.Lasso regression Coverage Results" MODIFIED="1498816016224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
@@ -65,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="10.6 Gradient_regresion.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="10.6 Gradient_regresion.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10.Ensemble/10.6 Gradient_regresion.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -73,6 +74,16 @@
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="11.1 Binarize.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/11. Preprocessing/11.1 Binarize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,6 +148,7 @@
         <option value="$PROJECT_DIR$/10.Ensemble/10.4 RF_regression.py" />
         <option value="$PROJECT_DIR$/10.Ensemble/10.5 Gradient_Classifier.py" />
         <option value="$PROJECT_DIR$/10.Ensemble/10.6 Gradient_regresion.py" />
+        <option value="$PROJECT_DIR$/11. Preprocessing/11.1 Binarize.py" />
       </list>
     </option>
   </component>
@@ -192,7 +204,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="10.Ensemble" />
+              <option name="myItemId" value="11. Preprocessing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,25 +226,7 @@
       <recent name="$PROJECT_DIR$/2.decision tree(DT)" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10.6 Gradient_regresion">
-    <configuration default="false" name="10.2 adaboost regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10.Ensemble" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10.Ensemble/10.2 adaboost regression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.11.1 Binarize">
     <configuration default="false" name="10.3 RF_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -301,6 +295,24 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10.Ensemble/10.6 Gradient_regresion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="11.1 Binarize" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11. Preprocessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11. Preprocessing/11.1 Binarize.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -514,19 +526,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.10.2 adaboost regression" />
-      <item index="1" class="java.lang.String" itemvalue="Python.10.3 RF_classifier" />
-      <item index="2" class="java.lang.String" itemvalue="Python.10.4 RF_regression" />
-      <item index="3" class="java.lang.String" itemvalue="Python.10.5 Gradient_Classifier" />
-      <item index="4" class="java.lang.String" itemvalue="Python.10.6 Gradient_regresion" />
+      <item index="0" class="java.lang.String" itemvalue="Python.10.3 RF_classifier" />
+      <item index="1" class="java.lang.String" itemvalue="Python.10.4 RF_regression" />
+      <item index="2" class="java.lang.String" itemvalue="Python.10.5 Gradient_Classifier" />
+      <item index="3" class="java.lang.String" itemvalue="Python.10.6 Gradient_regresion" />
+      <item index="4" class="java.lang.String" itemvalue="Python.11.1 Binarize" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.10.6 Gradient_regresion" />
-        <item index="1" class="java.lang.String" itemvalue="Python.10.5 Gradient_Classifier" />
-        <item index="2" class="java.lang.String" itemvalue="Python.10.4 RF_regression" />
-        <item index="3" class="java.lang.String" itemvalue="Python.10.3 RF_classifier" />
-        <item index="4" class="java.lang.String" itemvalue="Python.10.2 adaboost regression" />
+        <item index="0" class="java.lang.String" itemvalue="Python.11.1 Binarize" />
+        <item index="1" class="java.lang.String" itemvalue="Python.10.6 Gradient_regresion" />
+        <item index="2" class="java.lang.String" itemvalue="Python.10.5 Gradient_Classifier" />
+        <item index="3" class="java.lang.String" itemvalue="Python.10.4 RF_regression" />
+        <item index="4" class="java.lang.String" itemvalue="Python.10.3 RF_classifier" />
       </list>
     </recent_temporary>
   </component>
@@ -553,7 +565,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23357664" sideWeight="0.49713877" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34039333" sideWeight="0.49418604" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34039333" sideWeight="0.49418604" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -937,6 +949,14 @@
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11. Preprocessing/11.1 Binarize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
