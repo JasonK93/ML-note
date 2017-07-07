@@ -32,9 +32,8 @@ def test_AdaBoostClassifier(*data):
     plt.show()
 def test_AdaBoostClassifier_base_classifier(*data):
     '''
-    test Adaboostclassifier with differnt number of classfier, and category of classfier
-    测试  AdaBoostClassifier 的预测性能随基础分类器数量和基础分类器的类型的影响
-    :param data: 可变参数。它是一个元组，这里要求其元素依次为：训练样本集、测试样本集、训练样本的标记、测试样本的标记
+    test Adaboost classifier with different number of classifier, and category of classifier
+    :param data: train_data, test_data, train_value, test_value
     :return:  None
     '''
     from sklearn.naive_bayes import GaussianNB
@@ -44,7 +43,7 @@ def test_AdaBoostClassifier_base_classifier(*data):
 
     clf=ensemble.AdaBoostClassifier(learning_rate=0.1)
     clf.fit(X_train,y_train)
-    ## grap
+    ## graph
     estimators_num=len(clf.estimators_)
     X=range(1,estimators_num+1)
     ax.plot(list(X),list(clf.staged_score(X_train,y_train)),label="Traing score")
