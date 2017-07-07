@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32ca0f66-8911-4d4a-8039-80bcdc67f776" name="Default" comment="" />
+    <list default="true" id="32ca0f66-8911-4d4a-8039-80bcdc67f776" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +26,7 @@
     <SUITE FILE_PATH="coverage/ML note$2_1_Decision_Tree_Classifier.coverage" NAME="2.1 Decision Tree-Classifier Coverage Results" MODIFIED="1499225380025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.decision tree(DT)" />
     <SUITE FILE_PATH="coverage/ML note$7_3_liner_SVR.coverage" NAME="7.3 liner_SVR Coverage Results" MODIFIED="1499342245364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7. Support Vector Machine" />
     <SUITE FILE_PATH="coverage/ML note$9_1_labelpropogation.coverage" NAME="9.1 labelpropogation Coverage Results" MODIFIED="1499407818400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9. Semi-Supervised Learning" />
+    <SUITE FILE_PATH="coverage/ML note$10_4_RF_regression.coverage" NAME="10.4 RF_regression Coverage Results" MODIFIED="1499437353556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.Ensemble" />
     <SUITE FILE_PATH="coverage/ML note$6_4_GaussianMixture.coverage" NAME="6.4 GaussianMixture Coverage Results" MODIFIED="1499333304658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
     <SUITE FILE_PATH="coverage/ML note$6_3_Agglomerative_Clustering.coverage" NAME="6.3 Agglomerative Clustering Coverage Results" MODIFIED="1499332947447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
     <SUITE FILE_PATH="coverage/ML note$6_2_DBSCAN.coverage" NAME="6.2 DBSCAN Coverage Results" MODIFIED="1499332002041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
@@ -74,11 +77,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="10.3 RF_classifier.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="10.3 RF_classifier.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10.Ensemble/10.3 RF_classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10.4 RF_regression.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/10.Ensemble/10.4 RF_regression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1125">
+              <caret line="75" column="64" lean-forward="false" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -143,6 +158,7 @@
         <option value="$PROJECT_DIR$/8. Artificial Neural Network/test.py" />
         <option value="$PROJECT_DIR$/10.Ensemble/10.2 adaboost regression.py" />
         <option value="$PROJECT_DIR$/10.Ensemble/10.3 RF_classifier.py" />
+        <option value="$PROJECT_DIR$/10.Ensemble/10.4 RF_regression.py" />
       </list>
     </option>
   </component>
@@ -220,25 +236,7 @@
       <recent name="$PROJECT_DIR$/2.decision tree(DT)" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10.3 RF_classifier">
-    <configuration default="false" name="9.1 labelpropogation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9. Semi-Supervised Learning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9. Semi-Supervised Learning/9.1 labelpropogation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.10.4 RF_regression">
     <configuration default="false" name="9.2LabelSpreading" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,6 +305,24 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10.Ensemble/10.3 RF_classifier.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="10.4 RF_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10.Ensemble" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10.Ensemble/10.4 RF_regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -520,19 +536,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.9.1 labelpropogation" />
-      <item index="1" class="java.lang.String" itemvalue="Python.9.2LabelSpreading" />
-      <item index="2" class="java.lang.String" itemvalue="Python.10.1 Adaboost classifer" />
-      <item index="3" class="java.lang.String" itemvalue="Python.10.2 adaboost regression" />
-      <item index="4" class="java.lang.String" itemvalue="Python.10.3 RF_classifier" />
+      <item index="0" class="java.lang.String" itemvalue="Python.9.2LabelSpreading" />
+      <item index="1" class="java.lang.String" itemvalue="Python.10.1 Adaboost classifer" />
+      <item index="2" class="java.lang.String" itemvalue="Python.10.2 adaboost regression" />
+      <item index="3" class="java.lang.String" itemvalue="Python.10.3 RF_classifier" />
+      <item index="4" class="java.lang.String" itemvalue="Python.10.4 RF_regression" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.10.3 RF_classifier" />
-        <item index="1" class="java.lang.String" itemvalue="Python.10.2 adaboost regression" />
-        <item index="2" class="java.lang.String" itemvalue="Python.10.1 Adaboost classifer" />
-        <item index="3" class="java.lang.String" itemvalue="Python.9.2LabelSpreading" />
-        <item index="4" class="java.lang.String" itemvalue="Python.9.1 labelpropogation" />
+        <item index="0" class="java.lang.String" itemvalue="Python.10.4 RF_regression" />
+        <item index="1" class="java.lang.String" itemvalue="Python.10.3 RF_classifier" />
+        <item index="2" class="java.lang.String" itemvalue="Python.10.2 adaboost regression" />
+        <item index="3" class="java.lang.String" itemvalue="Python.10.1 Adaboost classifer" />
+        <item index="4" class="java.lang.String" itemvalue="Python.9.2LabelSpreading" />
       </list>
     </recent_temporary>
   </component>
@@ -908,8 +924,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/10.Ensemble/10.3 RF_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10.Ensemble/10.4 RF_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="64" lean-forward="false" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
