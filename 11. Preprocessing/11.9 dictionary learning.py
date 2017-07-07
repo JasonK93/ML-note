@@ -16,4 +16,4 @@ def test_DictionaryLearning():
     print("after transform:",dct.transform(X))
 
 if __name__=='__main__':
-    test_DictionaryLearning() 
+    test_DictionaryLearning()
