@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32ca0f66-8911-4d4a-8039-80bcdc67f776" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/1.liner model/11.8 pipeline.py" afterPath="$PROJECT_DIR$/11. Preprocessing/11.8 pipeline.py" />
-    </list>
+    <list default="true" id="32ca0f66-8911-4d4a-8039-80bcdc67f776" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +35,7 @@
     <SUITE FILE_PATH="coverage/ML note$10_3_RF_classifier.coverage" NAME="10.3 RF_classifier Coverage Results" MODIFIED="1499436408524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.Ensemble" />
     <SUITE FILE_PATH="coverage/ML note$11_8_pipeline.coverage" NAME="11.8 pipeline Coverage Results" MODIFIED="1499440750626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$5_3_MDS.coverage" NAME="5.3 MDS Coverage Results" MODIFIED="1499327741023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.Dimension_Reduction" />
+    <SUITE FILE_PATH="coverage/ML note$11_9_dictionary_learning.coverage" NAME="11.9 dictionary learning Coverage Results" MODIFIED="1499440973670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11. Preprocessing" />
     <SUITE FILE_PATH="coverage/ML note$6_1_Kmeans.coverage" NAME="6.1 Kmeans Coverage Results" MODIFIED="1499331568522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
     <SUITE FILE_PATH="coverage/ML note$3_1_Gaussian_Bayes.coverage" NAME="3.1 Gaussian Bayes Coverage Results" MODIFIED="1499245093396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.Bayes" />
     <SUITE FILE_PATH="coverage/ML note$KNN_classification.coverage" NAME="KNN classification Coverage Results" MODIFIED="1499323965867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4. KNN" />
@@ -75,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="11.8 pipeline.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="11.8 pipeline.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/11. Preprocessing/11.8 pipeline.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -83,6 +82,16 @@
               <folding>
                 <element signature="e#2#36#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="11.9 dictionary learning.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/11. Preprocessing/11.9 dictionary learning.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.liner model/3.Lasso regression.py" />
         <option value="$PROJECT_DIR$/1.liner model/4. ElasticNet.py" />
         <option value="$PROJECT_DIR$/1.liner model/5.logistic regression.py" />
         <option value="$PROJECT_DIR$/1.liner model/LDA.py" />
@@ -163,6 +171,7 @@
         <option value="$PROJECT_DIR$/11. Preprocessing/11.6 feature_selection_bagging.py" />
         <option value="$PROJECT_DIR$/11. Preprocessing/11.7 feature_selection_embeded.py" />
         <option value="$PROJECT_DIR$/1.liner model/11.8 pipeline.py" />
+        <option value="$PROJECT_DIR$/11. Preprocessing/11.9 dictionary learning.py" />
       </list>
     </option>
   </component>
@@ -241,25 +250,7 @@
       <recent name="$PROJECT_DIR$/2.decision tree(DT)" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.11.8 pipeline">
-    <configuration default="false" name="11.4 standardize" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11. Preprocessing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11. Preprocessing/11.4 standardize.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.11.9 dictionary learning">
     <configuration default="false" name="11.5 feature_seleticon_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,6 +319,24 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11. Preprocessing/11.8 pipeline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="11.9 dictionary learning" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11. Preprocessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11. Preprocessing/11.9 dictionary learning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -541,19 +550,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.11.4 standardize" />
-      <item index="1" class="java.lang.String" itemvalue="Python.11.5 feature_seleticon_filter" />
-      <item index="2" class="java.lang.String" itemvalue="Python.11.6 feature_selection_bagging" />
-      <item index="3" class="java.lang.String" itemvalue="Python.11.7 feature_selection_embeded" />
-      <item index="4" class="java.lang.String" itemvalue="Python.11.8 pipeline" />
+      <item index="0" class="java.lang.String" itemvalue="Python.11.5 feature_seleticon_filter" />
+      <item index="1" class="java.lang.String" itemvalue="Python.11.6 feature_selection_bagging" />
+      <item index="2" class="java.lang.String" itemvalue="Python.11.7 feature_selection_embeded" />
+      <item index="3" class="java.lang.String" itemvalue="Python.11.8 pipeline" />
+      <item index="4" class="java.lang.String" itemvalue="Python.11.9 dictionary learning" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.11.8 pipeline" />
-        <item index="1" class="java.lang.String" itemvalue="Python.11.7 feature_selection_embeded" />
-        <item index="2" class="java.lang.String" itemvalue="Python.11.6 feature_selection_bagging" />
-        <item index="3" class="java.lang.String" itemvalue="Python.11.5 feature_seleticon_filter" />
-        <item index="4" class="java.lang.String" itemvalue="Python.11.4 standardize" />
+        <item index="0" class="java.lang.String" itemvalue="Python.11.9 dictionary learning" />
+        <item index="1" class="java.lang.String" itemvalue="Python.11.8 pipeline" />
+        <item index="2" class="java.lang.String" itemvalue="Python.11.7 feature_selection_embeded" />
+        <item index="3" class="java.lang.String" itemvalue="Python.11.6 feature_selection_bagging" />
+        <item index="4" class="java.lang.String" itemvalue="Python.11.5 feature_seleticon_filter" />
       </list>
     </recent_temporary>
   </component>
@@ -572,15 +581,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="115" y="23" width="1246" height="753" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1744186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1744186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34039333" sideWeight="0.50581396" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23357664" sideWeight="0.49713877" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34039333" sideWeight="0.49418604" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34039333" sideWeight="0.49418604" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -1032,6 +1041,14 @@
           <folding>
             <element signature="e#2#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11. Preprocessing/11.9 dictionary learning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
