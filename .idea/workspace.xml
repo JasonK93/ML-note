@@ -23,6 +23,7 @@
     <SUITE FILE_PATH="coverage/ML note$test.coverage" NAME="test Coverage Results" MODIFIED="1499404249015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8. Artificial Neural Network" />
     <SUITE FILE_PATH="coverage/ML note$2_1_Decision_Tree_Classifier.coverage" NAME="2.1 Decision Tree-Classifier Coverage Results" MODIFIED="1499225380025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.decision tree(DT)" />
     <SUITE FILE_PATH="coverage/ML note$7_3_liner_SVR.coverage" NAME="7.3 liner_SVR Coverage Results" MODIFIED="1499342245364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7. Support Vector Machine" />
+    <SUITE FILE_PATH="coverage/ML note$9_1_labelpropogation.coverage" NAME="9.1 labelpropogation Coverage Results" MODIFIED="1499407818400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9. Semi-Supervised Learning" />
     <SUITE FILE_PATH="coverage/ML note$6_4_GaussianMixture.coverage" NAME="6.4 GaussianMixture Coverage Results" MODIFIED="1499333304658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
     <SUITE FILE_PATH="coverage/ML note$6_3_Agglomerative_Clustering.coverage" NAME="6.3 Agglomerative Clustering Coverage Results" MODIFIED="1499332947447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
     <SUITE FILE_PATH="coverage/ML note$6_2_DBSCAN.coverage" NAME="6.2 DBSCAN Coverage Results" MODIFIED="1499332002041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
@@ -45,37 +46,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="7.2 SVM-unliner_SVC.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7. Support Vector Machine/7.2 SVM-unliner_SVC.py">
+      <file leaf-file-name="9.1 labelpropogation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/9. Semi-Supervised Learning/9.1 labelpropogation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="60" />
+            <state relative-caret-position="1620">
+              <caret line="108" column="36" lean-forward="false" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="36" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="7.3 liner_SVR.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7. Support Vector Machine/7.3 liner_SVR.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="7.4 unliner_SVR.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/7. Support Vector Machine/7.4 unliner_SVR.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#1#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,6 +109,7 @@
         <option value="$PROJECT_DIR$/8. Artificial Neural Network/test.py" />
         <option value="$PROJECT_DIR$/8. Artificial Neural Network/Perceptron.py" />
         <option value="$PROJECT_DIR$/8. Artificial Neural Network/8.2 iris-neural network.py" />
+        <option value="$PROJECT_DIR$/9. Semi-Supervised Learning/9.1 labelpropogation.py" />
       </list>
     </option>
   </component>
@@ -176,6 +154,20 @@
               <option name="myItemId" value="ML note" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9. Semi-Supervised Learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML note" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML note" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -191,29 +183,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/2.decision tree(DT)" />
       <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/2.decision tree(DT)" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration default="false" name="7.2 SVM-unliner_SVC" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7. Support Vector Machine" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7. Support Vector Machine/7.2 SVM-unliner_SVC.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.9.1 labelpropogation">
     <configuration default="false" name="7.3 liner_SVR" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,6 +256,24 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8. Artificial Neural Network/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="9.1 labelpropogation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9. Semi-Supervised Learning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9. Semi-Supervised Learning/9.1 labelpropogation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -495,19 +487,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.7.2 SVM-unliner_SVC" />
-      <item index="1" class="java.lang.String" itemvalue="Python.7.3 liner_SVR" />
-      <item index="2" class="java.lang.String" itemvalue="Python.7.4 unliner_SVR" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Perceptron" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test" />
+      <item index="0" class="java.lang.String" itemvalue="Python.7.3 liner_SVR" />
+      <item index="1" class="java.lang.String" itemvalue="Python.7.4 unliner_SVR" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Perceptron" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.9.1 labelpropogation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Perceptron" />
-        <item index="2" class="java.lang.String" itemvalue="Python.7.4 unliner_SVR" />
-        <item index="3" class="java.lang.String" itemvalue="Python.7.3 liner_SVR" />
-        <item index="4" class="java.lang.String" itemvalue="Python.7.2 SVM-unliner_SVC" />
+        <item index="0" class="java.lang.String" itemvalue="Python.9.1 labelpropogation" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Perceptron" />
+        <item index="3" class="java.lang.String" itemvalue="Python.7.4 unliner_SVR" />
+        <item index="4" class="java.lang.String" itemvalue="Python.7.3 liner_SVR" />
       </list>
     </recent_temporary>
   </component>
@@ -840,6 +832,16 @@
         <state relative-caret-position="225">
           <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9. Semi-Supervised Learning/9.1 labelpropogation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="108" column="36" lean-forward="false" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="36" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
