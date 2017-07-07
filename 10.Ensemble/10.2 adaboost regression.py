@@ -1,35 +1,26 @@
-# -*- coding: utf-8 -*-
-"""
-    集成学习
-    ~~~~~~~~~~~~~~~~
-    AdaBoostRegressor
-    :copyright: (c) 2016 by the huaxz1986.
-    :license: lgpl-3.0, see LICENSE for more details.
-"""
-
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import datasets,cross_validation,ensemble
 
 def load_data_regression():
     '''
-    加载用于回归问题的数据集
-    :return: 一个元组，用于回归问题。元组元素依次为：训练样本集、测试样本集、训练样本集对应的值、测试样本集对应的值
+    load the date set for regression (diabetes)
+    :return: train_data, test_data, train_value, test_value
     '''
-    diabetes = datasets.load_diabetes() #使用 scikit-learn 自带的一个糖尿病病人的数据集
+    diabetes = datasets.load_diabetes()
     return cross_validation.train_test_split(diabetes.data,diabetes.target,
-    test_size=0.25,random_state=0) # 拆分成训练集和测试集，测试集大小为原始数据集大小的 1/4
+    test_size=0.25,random_state=0)
 
 def test_AdaBoostRegressor(*data):
     '''
-    测试 AdaBoostRegressor 的用法，绘制 AdaBoostRegressor 的预测性能随基础回归器数量的影响
-    :param data: 可变参数。它是一个元组，这里要求其元素依次为：训练样本集、测试样本集、训练样本的值、测试样本的值
+    test the regression with different number of regression model
+    :param data: train_data, test_data, train_value, test_value
     :return:  None
     '''
     X_train,X_test,y_train,y_test=data
     regr=ensemble.AdaBoostRegressor()
     regr.fit(X_train,y_train)
-    ## 绘图
+    ## graph
     fig=plt.figure()
     ax=fig.add_subplot(1,1,1)
     estimators_num=len(regr.estimators_)
@@ -43,20 +34,20 @@ def test_AdaBoostRegressor(*data):
     plt.show()
 def test_AdaBoostRegressor_base_regr(*data):
     '''
-    测试 AdaBoostRegressor 的预测性能随基础回归器数量的和基础回归器类型的影响
-    :param data:  可变参数。它是一个元组，这里要求其元素依次为：训练样本集、测试样本集、训练样本的值、测试样本的值
+    test the regression with different number of model and regression method
+    :param data:  train_data, test_data, train_value, test_value
     :return: None
     '''
     from sklearn.svm import  LinearSVR
     X_train,X_test,y_train,y_test=data
     fig=plt.figure()
-    regrs=[ensemble.AdaBoostRegressor(), # 基础回归器为默认类型
-		ensemble.AdaBoostRegressor(base_estimator=LinearSVR(epsilon=0.01,C=100))] # 基础回归器为 LinearSVR
+    regrs=[ensemble.AdaBoostRegressor(),
+		ensemble.AdaBoostRegressor(base_estimator=LinearSVR(epsilon=0.01,C=100))]
     labels=["Decision Tree Regressor","Linear SVM Regressor"]
     for i ,regr in enumerate(regrs):
         ax=fig.add_subplot(2,1,i+1)
         regr.fit(X_train,y_train)
-        ## 绘图
+        ## graph
         estimators_num=len(regr.estimators_)
         X=range(1,estimators_num+1)
         ax.plot(list(X),list(regr.staged_score(X_train,y_train)),label="Traing score")
@@ -70,8 +61,8 @@ def test_AdaBoostRegressor_base_regr(*data):
     plt.show()
 def test_AdaBoostRegressor_learning_rate(*data):
     '''
-    测试 AdaBoostRegressor 的预测性能随学习率的影响
-    :param data:   可变参数。它是一个元组，这里要求其元素依次为：训练样本集、测试样本集、训练样本的值、测试样本的值
+    test the performance with different learning rate
+    :param data:   train_data, test_data, train_value, test_value
     :return: None
     '''
     X_train,X_test,y_train,y_test=data
@@ -94,8 +85,8 @@ def test_AdaBoostRegressor_learning_rate(*data):
     plt.show()
 def test_AdaBoostRegressor_loss(*data):
     '''
-    测试 AdaBoostRegressor 的预测性能随损失函数类型的影响
-    :param data:    可变参数。它是一个元组，这里要求其元素依次为：训练样本集、测试样本集、训练样本的值、测试样本的值
+    test the method with different loss function
+    :param data:    train_data, test_data, train_value, test_value
     :return: None
     '''
     X_train,X_test,y_train,y_test=data
@@ -105,7 +96,7 @@ def test_AdaBoostRegressor_loss(*data):
     for i ,loss in enumerate(losses):
         regr=ensemble.AdaBoostRegressor(loss=loss,n_estimators=30)
         regr.fit(X_train,y_train)
-        ## 绘图
+        ## graph
         estimators_num=len(regr.estimators_)
         X=range(1,estimators_num+1)
         ax.plot(list(X),list(regr.staged_score(X_train,y_train)),
@@ -120,8 +111,8 @@ def test_AdaBoostRegressor_loss(*data):
     plt.show()
 
 if __name__=='__main__':
-    X_train,X_test,y_train,y_test=load_data_regression()# 获取回归数据
-    test_AdaBoostRegressor(X_train,X_test,y_train,y_test)# 调用 test_AdaBoostRegressor
-    # test_AdaBoostRegressor_base_regr(X_train,X_test,y_train,y_test)# 调用 test_AdaBoostRegressor_base_regr
-    # test_AdaBoostRegressor_learning_rate(X_train,X_test,y_train,y_test)# 调用 test_AdaBoostRegressor_learning_rate
-    # test_AdaBoostRegressor_loss(X_train,X_test,y_train,y_test)# 调用 test_AdaBoostRegressor_loss
+    X_train,X_test,y_train,y_test=load_data_regression()
+    test_AdaBoostRegressor(X_train,X_test,y_train,y_test)
+    test_AdaBoostRegressor_base_regr(X_train,X_test,y_train,y_test)
+    test_AdaBoostRegressor_learning_rate(X_train,X_test,y_train,y_test)
+    test_AdaBoostRegressor_loss(X_train,X_test,y_train,y_test)

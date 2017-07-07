@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32ca0f66-8911-4d4a-8039-80bcdc67f776" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8. Artificial Neural Network/test.py" afterPath="$PROJECT_DIR$/8. Artificial Neural Network/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10.Ensemble/10.2 adaboost regression.py" afterPath="$PROJECT_DIR$/10.Ensemble/10.2 adaboost regression.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,6 +29,7 @@
     <SUITE FILE_PATH="coverage/ML note$6_4_GaussianMixture.coverage" NAME="6.4 GaussianMixture Coverage Results" MODIFIED="1499333304658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
     <SUITE FILE_PATH="coverage/ML note$6_3_Agglomerative_Clustering.coverage" NAME="6.3 Agglomerative Clustering Coverage Results" MODIFIED="1499332947447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
     <SUITE FILE_PATH="coverage/ML note$6_2_DBSCAN.coverage" NAME="6.2 DBSCAN Coverage Results" MODIFIED="1499332002041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
+    <SUITE FILE_PATH="coverage/ML note$10_2_adaboost_regression.coverage" NAME="10.2 adaboost regression Coverage Results" MODIFIED="1499436171248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.Ensemble" />
     <SUITE FILE_PATH="coverage/ML note$5_3_MDS.coverage" NAME="5.3 MDS Coverage Results" MODIFIED="1499327741023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.Dimension_Reduction" />
     <SUITE FILE_PATH="coverage/ML note$6_1_Kmeans.coverage" NAME="6.1 Kmeans Coverage Results" MODIFIED="1499331568522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
     <SUITE FILE_PATH="coverage/ML note$3_1_Gaussian_Bayes.coverage" NAME="3.1 Gaussian Bayes Coverage Results" MODIFIED="1499245093396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.Bayes" />
@@ -53,8 +54,8 @@
       <file leaf-file-name="10.1 Adaboost classifer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10.Ensemble/10.1 Adaboost classifer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="124" column="60" lean-forward="true" selection-start-line="124" selection-start-column="60" selection-end-line="124" selection-end-column="60" />
+            <state relative-caret-position="90">
+              <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="59" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -62,24 +63,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="10.2 adaboost regression.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="10.2 adaboost regression.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/10.Ensemble/10.2 adaboost regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="126" column="96" lean-forward="false" selection-start-line="126" selection-start-column="96" selection-end-line="126" selection-end-column="96" />
+            <state relative-caret-position="342">
+              <caret line="117" column="62" lean-forward="false" selection-start-line="117" selection-start-column="62" selection-end-line="117" selection-end-column="62" />
               <folding>
-                <element signature="e#182#213#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/8. Artificial Neural Network/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -138,8 +129,8 @@
         <option value="$PROJECT_DIR$/9. Semi-Supervised Learning/LabelSpreading.py" />
         <option value="$PROJECT_DIR$/9. Semi-Supervised Learning/9.2LabelSpreading.py" />
         <option value="$PROJECT_DIR$/10.Ensemble/10.1 Adaboost classifer.py" />
-        <option value="$PROJECT_DIR$/10.Ensemble/10.2 adaboost regression.py" />
         <option value="$PROJECT_DIR$/8. Artificial Neural Network/test.py" />
+        <option value="$PROJECT_DIR$/10.Ensemble/10.2 adaboost regression.py" />
       </list>
     </option>
   </component>
@@ -245,25 +236,7 @@
       <recent name="$PROJECT_DIR$/2.decision tree(DT)" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10.1 Adaboost classifer">
-    <configuration default="false" name="Perceptron" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8. Artificial Neural Network" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8. Artificial Neural Network/Perceptron.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.10.2 adaboost regression">
     <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -332,6 +305,24 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10.Ensemble/10.1 Adaboost classifer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="10.2 adaboost regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10.Ensemble" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10.Ensemble/10.2 adaboost regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -545,19 +536,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Perceptron" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.9.1 labelpropogation" />
-      <item index="3" class="java.lang.String" itemvalue="Python.9.2LabelSpreading" />
-      <item index="4" class="java.lang.String" itemvalue="Python.10.1 Adaboost classifer" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.9.1 labelpropogation" />
+      <item index="2" class="java.lang.String" itemvalue="Python.9.2LabelSpreading" />
+      <item index="3" class="java.lang.String" itemvalue="Python.10.1 Adaboost classifer" />
+      <item index="4" class="java.lang.String" itemvalue="Python.10.2 adaboost regression" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.10.1 Adaboost classifer" />
-        <item index="1" class="java.lang.String" itemvalue="Python.9.2LabelSpreading" />
-        <item index="2" class="java.lang.String" itemvalue="Python.9.1 labelpropogation" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Perceptron" />
+        <item index="0" class="java.lang.String" itemvalue="Python.10.2 adaboost regression" />
+        <item index="1" class="java.lang.String" itemvalue="Python.10.1 Adaboost classifer" />
+        <item index="2" class="java.lang.String" itemvalue="Python.9.2LabelSpreading" />
+        <item index="3" class="java.lang.String" itemvalue="Python.9.1 labelpropogation" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -903,10 +894,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/8. Artificial Neural Network/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/10.Ensemble/10.1 Adaboost classifer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="124" column="60" lean-forward="true" selection-start-line="124" selection-start-column="60" selection-end-line="124" selection-end-column="60" />
+        <state relative-caret-position="90">
+          <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="59" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -915,19 +914,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/10.Ensemble/10.2 adaboost regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="126" column="96" lean-forward="false" selection-start-line="126" selection-start-column="96" selection-end-line="126" selection-end-column="96" />
+        <state relative-caret-position="342">
+          <caret line="117" column="62" lean-forward="false" selection-start-line="117" selection-start-column="62" selection-end-line="117" selection-end-column="62" />
           <folding>
-            <element signature="e#182#213#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8. Artificial Neural Network/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
