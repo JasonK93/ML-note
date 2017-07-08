@@ -37,4 +37,4 @@ def test_learning_curve():
     plt.show()
 
 if __name__=="__main__":
-    test_learning_curve() 
+    test_learning_curve()
