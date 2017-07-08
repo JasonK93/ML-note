@@ -16,6 +16,7 @@
     <SUITE FILE_PATH="coverage/ML note$11_5_feature_seleticon_filter.coverage" NAME="11.5 feature_seleticon_filter Coverage Results" MODIFIED="1499440181481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11. Preprocessing" />
     <SUITE FILE_PATH="coverage/ML note$LDA.coverage" NAME="LDA Coverage Results" MODIFIED="1498838977195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$Perceptron.coverage" NAME="Perceptron Coverage Results" MODIFIED="1499404188254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8. Artificial Neural Network" />
+    <SUITE FILE_PATH="coverage/ML note$12_1_Loss_function.coverage" NAME="12.1 Loss function Coverage Results" MODIFIED="1499477021084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12. Model evaluation" />
     <SUITE FILE_PATH="coverage/ML note$5_1_PCA.coverage" NAME="5.1 PCA Coverage Results" MODIFIED="1499326618012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.Dimension_Reduction" />
     <SUITE FILE_PATH="coverage/ML note$1_basic_liner_model.coverage" NAME="1.basic liner model Coverage Results" MODIFIED="1498813354450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$3_3_Bernoulli_NB.coverage" NAME="3.3 Bernoulli NB Coverage Results" MODIFIED="1499245864334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.Bayes" />
@@ -62,11 +63,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="1.basic liner model.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1.basic liner model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.liner model/1.basic liner model.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="12.1 Loss function.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/12. Model evaluation/12.1 Loss function.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -87,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.liner model/4. ElasticNet.py" />
         <option value="$PROJECT_DIR$/1.liner model/5.logistic regression.py" />
         <option value="$PROJECT_DIR$/1.liner model/LDA.py" />
         <option value="$PROJECT_DIR$/1.liner model/6.LDA.py" />
@@ -138,6 +148,7 @@
         <option value="$PROJECT_DIR$/11. Preprocessing/11.7 feature_selection_embeded.py" />
         <option value="$PROJECT_DIR$/1.liner model/11.8 pipeline.py" />
         <option value="$PROJECT_DIR$/11. Preprocessing/11.9 dictionary learning.py" />
+        <option value="$PROJECT_DIR$/12. Model evaluation/12.1 Loss function.py" />
       </list>
     </option>
   </component>
@@ -183,6 +194,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML note" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML note" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="12. Model evaluation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -197,30 +222,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/11. Preprocessing" />
       <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/2.decision tree(DT)" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.11.9 dictionary learning">
-    <configuration default="false" name="11.5 feature_seleticon_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11. Preprocessing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11. Preprocessing/11.5 feature_seleticon_filter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.12.1 Loss function">
     <configuration default="false" name="11.6 feature_selection_bagging" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,6 +297,24 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11. Preprocessing/11.9 dictionary learning.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="12.1 Loss function" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12. Model evaluation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12. Model evaluation/12.1 Loss function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -502,19 +528,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.11.5 feature_seleticon_filter" />
-      <item index="1" class="java.lang.String" itemvalue="Python.11.6 feature_selection_bagging" />
-      <item index="2" class="java.lang.String" itemvalue="Python.11.7 feature_selection_embeded" />
-      <item index="3" class="java.lang.String" itemvalue="Python.11.8 pipeline" />
-      <item index="4" class="java.lang.String" itemvalue="Python.11.9 dictionary learning" />
+      <item index="0" class="java.lang.String" itemvalue="Python.11.6 feature_selection_bagging" />
+      <item index="1" class="java.lang.String" itemvalue="Python.11.7 feature_selection_embeded" />
+      <item index="2" class="java.lang.String" itemvalue="Python.11.8 pipeline" />
+      <item index="3" class="java.lang.String" itemvalue="Python.11.9 dictionary learning" />
+      <item index="4" class="java.lang.String" itemvalue="Python.12.1 Loss function" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.11.9 dictionary learning" />
-        <item index="1" class="java.lang.String" itemvalue="Python.11.8 pipeline" />
-        <item index="2" class="java.lang.String" itemvalue="Python.11.7 feature_selection_embeded" />
-        <item index="3" class="java.lang.String" itemvalue="Python.11.6 feature_selection_bagging" />
-        <item index="4" class="java.lang.String" itemvalue="Python.11.5 feature_seleticon_filter" />
+        <item index="0" class="java.lang.String" itemvalue="Python.12.1 Loss function" />
+        <item index="1" class="java.lang.String" itemvalue="Python.11.9 dictionary learning" />
+        <item index="2" class="java.lang.String" itemvalue="Python.11.8 pipeline" />
+        <item index="3" class="java.lang.String" itemvalue="Python.11.7 feature_selection_embeded" />
+        <item index="4" class="java.lang.String" itemvalue="Python.11.6 feature_selection_bagging" />
       </list>
     </recent_temporary>
   </component>
@@ -541,7 +567,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23357664" sideWeight="0.49713877" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34039333" sideWeight="0.49418604" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34039333" sideWeight="0.49418604" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -1000,6 +1026,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12. Model evaluation/12.1 Loss function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding />
         </state>
       </provider>
