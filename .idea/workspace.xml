@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32ca0f66-8911-4d4a-8039-80bcdc67f776" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="32ca0f66-8911-4d4a-8039-80bcdc67f776" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +49,7 @@
     <SUITE FILE_PATH="coverage/ML note$5_3_MDS.coverage" NAME="5.3 MDS Coverage Results" MODIFIED="1499327741023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.Dimension_Reduction" />
     <SUITE FILE_PATH="coverage/ML note$11_9_dictionary_learning.coverage" NAME="11.9 dictionary learning Coverage Results" MODIFIED="1499440973670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11. Preprocessing" />
     <SUITE FILE_PATH="coverage/ML note$6_1_Kmeans.coverage" NAME="6.1 Kmeans Coverage Results" MODIFIED="1499331568522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6. Clustering" />
+    <SUITE FILE_PATH="coverage/ML note$12_6_learning_curve.coverage" NAME="12.6 learning curve Coverage Results" MODIFIED="1499478677801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12. Model evaluation" />
     <SUITE FILE_PATH="coverage/ML note$KNN_classification.coverage" NAME="KNN classification Coverage Results" MODIFIED="1499323965867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4. KNN" />
     <SUITE FILE_PATH="coverage/ML note$10_6_Gradient_regresion.coverage" NAME="10.6 Gradient_regresion Coverage Results" MODIFIED="1499438378507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.Ensemble" />
     <SUITE FILE_PATH="coverage/ML note$7_1_SVM_liner_SVC.coverage" NAME="7.1 SVM-liner_SVC Coverage Results" MODIFIED="1499341217238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7. Support Vector Machine" />
@@ -93,13 +92,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12.5 classification_metrics.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="12.5 classification_metrics.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/12. Model evaluation/12.5 classification_metrics.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
               <caret line="148" column="27" lean-forward="false" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="27" />
               <folding>
                 <element signature="e#1#191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="12.6 learning curve.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/12. Model evaluation/12.6 learning curve.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+              <folding>
+                <element signature="e#1#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2.decision tree(DT)/2.1 Decision Tree-Classifier.py" />
         <option value="$PROJECT_DIR$/2.decision tree(DT)/2.2 Decision Tree- Regression.py" />
         <option value="$PROJECT_DIR$/3.Bayes/3.1 Gaussian Bayes.py" />
         <option value="$PROJECT_DIR$/3.Bayes/3.2 Multinomial NB.py" />
@@ -181,6 +191,7 @@
         <option value="$PROJECT_DIR$/12. Model evaluation/12.3 validation_curve.py" />
         <option value="$PROJECT_DIR$/12. Model evaluation/12.4 grid_search.py" />
         <option value="$PROJECT_DIR$/12. Model evaluation/12.5 classification_metrics.py" />
+        <option value="$PROJECT_DIR$/12. Model evaluation/12.6 learning curve.py" />
       </list>
     </option>
   </component>
@@ -260,25 +271,7 @@
       <recent name="$PROJECT_DIR$/2.decision tree(DT)" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.12.5 classification_metrics">
-    <configuration default="false" name="12.1 Loss function" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12. Model evaluation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12. Model evaluation/12.1 Loss function.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.12.6 learning curve">
     <configuration default="false" name="12.2 data split" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -347,6 +340,24 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12. Model evaluation/12.5 classification_metrics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="12.6 learning curve" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12. Model evaluation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12. Model evaluation/12.6 learning curve.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -560,19 +571,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.12.1 Loss function" />
-      <item index="1" class="java.lang.String" itemvalue="Python.12.2 data split" />
-      <item index="2" class="java.lang.String" itemvalue="Python.12.3 validation_curve" />
-      <item index="3" class="java.lang.String" itemvalue="Python.12.4 grid_search" />
-      <item index="4" class="java.lang.String" itemvalue="Python.12.5 classification_metrics" />
+      <item index="0" class="java.lang.String" itemvalue="Python.12.2 data split" />
+      <item index="1" class="java.lang.String" itemvalue="Python.12.3 validation_curve" />
+      <item index="2" class="java.lang.String" itemvalue="Python.12.4 grid_search" />
+      <item index="3" class="java.lang.String" itemvalue="Python.12.5 classification_metrics" />
+      <item index="4" class="java.lang.String" itemvalue="Python.12.6 learning curve" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.12.5 classification_metrics" />
-        <item index="1" class="java.lang.String" itemvalue="Python.12.4 grid_search" />
-        <item index="2" class="java.lang.String" itemvalue="Python.12.3 validation_curve" />
-        <item index="3" class="java.lang.String" itemvalue="Python.12.2 data split" />
-        <item index="4" class="java.lang.String" itemvalue="Python.12.1 Loss function" />
+        <item index="0" class="java.lang.String" itemvalue="Python.12.6 learning curve" />
+        <item index="1" class="java.lang.String" itemvalue="Python.12.5 classification_metrics" />
+        <item index="2" class="java.lang.String" itemvalue="Python.12.4 grid_search" />
+        <item index="3" class="java.lang.String" itemvalue="Python.12.3 validation_curve" />
+        <item index="4" class="java.lang.String" itemvalue="Python.12.2 data split" />
       </list>
     </recent_temporary>
   </component>
@@ -599,7 +610,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23298033" sideWeight="0.49418604" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34039333" sideWeight="0.4908638" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34039333" sideWeight="0.4908638" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -624,16 +635,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1.liner model/3.Lasso regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="58" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="25" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.liner model/4. ElasticNet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1104,6 +1105,16 @@
           <caret line="148" column="27" lean-forward="false" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="27" />
           <folding>
             <element signature="e#1#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12. Model evaluation/12.6 learning curve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+          <folding>
+            <element signature="e#1#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
