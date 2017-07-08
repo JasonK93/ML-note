@@ -12,6 +12,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ML note$4__ElasticNet.coverage" NAME="4. ElasticNet Coverage Results" MODIFIED="1498822489445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$5_2_KPCA.coverage" NAME="5.2 KPCA Coverage Results" MODIFIED="1499327454346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.Dimension_Reduction" />
+    <SUITE FILE_PATH="coverage/ML note$12_2_data_split.coverage" NAME="12.2 data split Coverage Results" MODIFIED="1499477301298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12. Model evaluation" />
     <SUITE FILE_PATH="coverage/ML note$5_logistic_regression.coverage" NAME="5.logistic regression Coverage Results" MODIFIED="1498838534969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$11_5_feature_seleticon_filter.coverage" NAME="11.5 feature_seleticon_filter Coverage Results" MODIFIED="1499440181481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11. Preprocessing" />
     <SUITE FILE_PATH="coverage/ML note$LDA.coverage" NAME="LDA Coverage Results" MODIFIED="1498838977195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
@@ -43,6 +44,7 @@
     <SUITE FILE_PATH="coverage/ML note$10_6_Gradient_regresion.coverage" NAME="10.6 Gradient_regresion Coverage Results" MODIFIED="1499438378507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10.Ensemble" />
     <SUITE FILE_PATH="coverage/ML note$5_5_LLE.coverage" NAME="5.5 LLE Coverage Results" MODIFIED="1499328430901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5.Dimension_Reduction" />
     <SUITE FILE_PATH="coverage/ML note$7_1_SVM_liner_SVC.coverage" NAME="7.1 SVM-liner_SVC Coverage Results" MODIFIED="1499341217238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7. Support Vector Machine" />
+    <SUITE FILE_PATH="coverage/ML note$12_3_validation_curve.coverage" NAME="12.3 validation_curve Coverage Results" MODIFIED="1499477447538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12. Model evaluation" />
     <SUITE FILE_PATH="coverage/ML note$ridge_analysis.coverage" NAME="ridge analysis Coverage Results" MODIFIED="1498814626274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.liner model" />
     <SUITE FILE_PATH="coverage/ML note$2_2_Decision_Tree__Regression.coverage" NAME="2.2 Decision Tree- Regression Coverage Results" MODIFIED="1499226951641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.decision tree(DT)" />
     <SUITE FILE_PATH="coverage/ML note$11_4_standardize.coverage" NAME="11.4 standardize Coverage Results" MODIFIED="1499440031635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11. Preprocessing" />
@@ -83,12 +85,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12.2 data split.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="12.2 data split.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/12. Model evaluation/12.2 data split.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="303">
+              <caret line="111" column="26" lean-forward="true" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#116#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="12.3 validation_curve.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/12. Model evaluation/12.3 validation_curve.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.liner model/LDA.py" />
         <option value="$PROJECT_DIR$/1.liner model/6.LDA.py" />
         <option value="$PROJECT_DIR$/1.liner model/2.2 Decision Tree- Regression.py" />
         <option value="$PROJECT_DIR$/2.decision tree(DT)/2.1 Decision Tree-Classifier.py" />
@@ -159,6 +174,7 @@
         <option value="$PROJECT_DIR$/11. Preprocessing/11.9 dictionary learning.py" />
         <option value="$PROJECT_DIR$/12. Model evaluation/12.1 Loss function.py" />
         <option value="$PROJECT_DIR$/12. Model evaluation/12.2 data split.py" />
+        <option value="$PROJECT_DIR$/12. Model evaluation/12.3 validation_curve.py" />
       </list>
     </option>
   </component>
@@ -238,43 +254,7 @@
       <recent name="$PROJECT_DIR$/2.decision tree(DT)" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.12.1 Loss function">
-    <configuration default="false" name="11.6 feature_selection_bagging" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11. Preprocessing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11. Preprocessing/11.6 feature_selection_bagging.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="11.7 feature_selection_embeded" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11. Preprocessing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML note" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11. Preprocessing/11.7 feature_selection_embeded.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.12.3 validation_curve">
     <configuration default="false" name="11.8 pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -325,6 +305,42 @@
       <module name="ML note" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12. Model evaluation/12.1 Loss function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="12.2 data split" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12. Model evaluation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12. Model evaluation/12.2 data split.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="12.3 validation_curve" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12. Model evaluation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12. Model evaluation/12.3 validation_curve.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -538,19 +554,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.11.6 feature_selection_bagging" />
-      <item index="1" class="java.lang.String" itemvalue="Python.11.7 feature_selection_embeded" />
-      <item index="2" class="java.lang.String" itemvalue="Python.11.8 pipeline" />
-      <item index="3" class="java.lang.String" itemvalue="Python.11.9 dictionary learning" />
-      <item index="4" class="java.lang.String" itemvalue="Python.12.1 Loss function" />
+      <item index="0" class="java.lang.String" itemvalue="Python.11.8 pipeline" />
+      <item index="1" class="java.lang.String" itemvalue="Python.11.9 dictionary learning" />
+      <item index="2" class="java.lang.String" itemvalue="Python.12.1 Loss function" />
+      <item index="3" class="java.lang.String" itemvalue="Python.12.2 data split" />
+      <item index="4" class="java.lang.String" itemvalue="Python.12.3 validation_curve" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.12.1 Loss function" />
-        <item index="1" class="java.lang.String" itemvalue="Python.11.9 dictionary learning" />
-        <item index="2" class="java.lang.String" itemvalue="Python.11.8 pipeline" />
-        <item index="3" class="java.lang.String" itemvalue="Python.11.7 feature_selection_embeded" />
-        <item index="4" class="java.lang.String" itemvalue="Python.11.6 feature_selection_bagging" />
+        <item index="0" class="java.lang.String" itemvalue="Python.12.3 validation_curve" />
+        <item index="1" class="java.lang.String" itemvalue="Python.12.2 data split" />
+        <item index="2" class="java.lang.String" itemvalue="Python.12.1 Loss function" />
+        <item index="3" class="java.lang.String" itemvalue="Python.11.9 dictionary learning" />
+        <item index="4" class="java.lang.String" itemvalue="Python.11.8 pipeline" />
       </list>
     </recent_temporary>
   </component>
@@ -569,15 +585,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="115" y="23" width="1246" height="753" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1744186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34039333" sideWeight="0.50581396" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34039333" sideWeight="0.5091362" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23357664" sideWeight="0.49713877" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34039333" sideWeight="0.49418604" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23298033" sideWeight="0.49418604" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34039333" sideWeight="0.4908638" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -1050,9 +1066,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/12. Model evaluation/12.2 data split.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="303">
+          <caret line="111" column="26" lean-forward="true" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12. Model evaluation/12.3 validation_curve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
